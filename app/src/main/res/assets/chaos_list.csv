@@ -1,0 +1,401 @@
+#,Effect Name,Effect Description,Rarity,Category,Scope,Duration,Cycle,Player
+202,Lightning Chains,Deal 2 damage to target creature or player. That player or creature's controller may pay R or (2) to copy this effect.,1 - Common,Damage,Player,Instant,Antiquity,Duel
+204,Zombie Pop,Each player puts a creature from their graveyard onto the battlefield,1 - Common,Cards,All,Instant,Antiquity,Duel
+206,Shield,"You may choose a color. If you do, target creature gains protection from the chosen color. If you don't, target creature gains protection from colourless.",1 - Common,Buff,Creature,Instant,Antiquity,Duel
+208,Wicked Self Burn,Discard any number of cards. Target opponent discards the same number of cards.,1 - Common,Cards,"Player, Opponent",Instant,Antiquity,Duel
+212,Graverobbing,Choose a creature or artifact from any graveyard and put it onto the battlefield under your control.,1 - Common,Cards,Player,Instant,Grave,Duel
+213,Grave Robbers,Target opponent may choose a creature or artifact from your graveyard and put it onto the battlefield under their control.,1 - Common,Cards,Opponent,Instant,Grave,Duel
+219,I was a little drunk at the time,"Each player discards a card at random, then discards a card, then draws a card.",1 - Common,Cards,All,Instant,Pink Floyd,Duel
+221,Power Surge,Each player gets two energy counters.,1 - Common,Buff,All,Instant,Kaladesh,Duel
+222,Power Siphon,Get one energy counter for each opponent. Each opponent loses 1 life.,1 - Common,Damage,All,Instant,Kaladesh,Duel
+225,Land Drops,"Search your library for up to two basic lands and put them into play, then shuffle your library.",1 - Common,Tutor,Player,Instant,Antiquity,Duel
+226,Arguing with Brandon,Have a staring contest with target opponent. Winner gains control of up to one of loser's creatures.,1 - Common,Wacky,"Player, Opponent",Instant,Dammit Brandon,Duel
+241,Bounce,Return target nonland permanent to its owner's hand.,1 - Common,Cards,Target Player,Instant,,Duel
+242,Super Bounce,Put target nonland permanent on top of its owner's library.,1 - Common,Cards,Target Player,Instant,,Duel
+246,Mini-Haups,"Each player sacrifices one land, creature, and artifact.",1 - Common,Destruction,All,Instant,,Duel
+249,Gambit,"You may discard a card at random. If you do, deal X damage to target creature or player, X is equal to the converted mana cost of the discarded card.",1 - Common,Damage,Player,Instant,,Duel
+252,Jace Bounce,Put target nonland permanent second from the top of its owner's library.,1 - Common,Cards,Player,Instant,,Duel
+257,Sneak Peek,Scry 2. Draw a card.,1 - Common,Cards,Player,Instant,Visual,Duel
+258,Urza's Vision Plan,Look at target opponent's hand. Draw a card.,1 - Common,Cards,"Player, Opponent",Instant,Visual,Duel
+259,Goblin Optometrist,Look at the top three cards of target opponent's library. Return them in the same order or shuffle opponent's library.,1 - Common,Cards,"Player, Opponent",Instant,Visual,Duel
+262,Colour Enhancement,Choose a colour. Creatures of chosen colour gain +2/+2 until end of turn.,1 - Common,Buff,All,Turn,Buff,Duel
+263,Tribal Enhancement,Choose a creature type. Creatures of the chosen type gain +2/+2 until end of turn.,1 - Common,Buff,All,Turn,Buff,Duel
+264,"Swords, Plows, Whatever",Exile target creature. The creature's controller gains life equal to twice its power.,1 - Common,Life,Creature,Instant,,Duel
+272,Visit from the Doctor,Target creature phases out.,1 - Common,Buff,Creature,Instant,,Duel
+274,Power Choice,Target opponent chooses: All creatures you control gain [+1/+0] or [+0/+1] until end of turn.,1 - Common,Buff,"Player, Opponent",Turn,,Duel
+289,Grunts,Create 1d8 3/1 red/black Orc Marine creature tokens with reach.,1 - Common,Token,Player,Instant,,Duel
+294,Party Bob,"Each player reveals the top card of their library, loses life equal to that card's converted mana cost, then puts that card in their hand.",1 - Common,Damage,All,Instant,,Duel
+297,Standard Bearer,"Target creature gains ""Every spell and ability that can target this creature must target this creature.""",1 - Common,Buff,Target,Ongoing,,Duel
+298,King Me,You become the monarch.,1 - Common,Buff,Player,Instant,,Duel
+299,Usurp,Target opponent becomes the monarch.,1 - Common,Buff,Opponent,Instant,,Duel
+300,Chaos Ward,"Target creature gains ""Protection from Chaos"".",1 - Common,Buff,Target,Ongoing,,Duel
+301,Rekt,Exile target artifact or land.,1 - Common,Destruction,Player,Instant,,Duel
+303,Regrowth,Return target card from your graveyard to your hand.,1 - Common,Cards,Player,Instant,,Duel
+305,Blind Thief,Put the top card of target opponent's library on top of your library.,1 - Common,Cards,Opponent,Instant,,Duel
+310,Deja Vu,"For each player, choose a card from that player's graveyard and put it on top of their library.",1 - Common,Cards,All,Instant,,Duel
+313,That Lat-Nam Guy,"Each player shuffles a card from their hand into their library, then draws two cards.",1 - Common,Cards,All,Instant,,Duel
+316,Tim,"Create a 1/1 blue Tim creature token with ""T: Deal 1 damage to target creature or player.""",1 - Common,Token,Player,Instant,,Duel
+326,Annoyance,Tap any number of target players. Draw a card.,1 - Common,Wacky,All,Instant,,Duel
+328,Sickness,Target creature gets -1/-1 until end of turn. Draw a card.,1 - Common,Buff,Player,Turn,,Duel
+329,Health,Target creature gets +1/+1 until end of turn. Draw a card.,1 - Common,Buff,Player,Turn,,Duel
+331,Savant,"Target creature gains ""T: Draw a card."".",1 - Common,Buff,Creature,Ongoing,,Duel
+332,Distraction,Target creature cannot attack or block this turn. Draw a card.,1 - Common,Buff,Player,Turn,,Duel
+338,Questionable Leftovers,You get two poison counters.,1 - Common,Damage,Player,Instant,,Duel
+340,Shellfish Allergy,Target player gets two poison counters.,1 - Common,Damage,Player,Instant,,Multi
+342,Venomous Implants,Target creature gains infect.,1 - Common,Buff,Creature,Ongoing,,Duel
+346,Juice Cleanse,"You may discard as many cards as you wish. For each card discarded in this way, remove 1 poison counter.",1 - Common,Cards,Player,Instant,,Duel
+348,"Snakes, Why'd It Have To Be Snakes?",Create 1d6 2/2 green/black Snake creature tokens with infect.,1 - Common,Token,Player,Instant,,Duel
+351,Hand Grenade,Discard your hand. Deal 2 damage to target creature or player for each card discarded. Draw 4 cards.,1 - Common,Damage,Player,Instant,,Duel
+359,Chaos Orb Redux,"Choose a card in play that you control. Flip this card onto the battlefield from a height of at least one foot. If the card turns over completely at least once during the flip, destroy all nontoken permanents it touches. Then destroy the card.",1 - Common,Destruction,Player,Instant,,Duel
+362,Life Things,Target opponent chooses: [You gain 4 life.] or [Return a creature from your graveyard to the battlefield.],1 - Common,Life,Player,Instant,,Duel
+363,Dangerous Things,"Target opponent chooses: [Create a white 1/4 Bastion creature token with flying, first strike, and defender.] or [Create a black 4/1 Hordes creature token with menace, double strike, and haste.]",1 - Common,Token,Player,Instant,,Duel
+364,Handy Things,Target opponent chooses: [Draw 3 cards.] or [Target opponent discards 2 cards.],1 - Common,Cards,Player,Instant,,Duel
+365,Bonus Things,Target opponent chooses: [Create 1d3 blue 2/1 Hawk creature tokens with flying.] or [Distribute 1d4 +1/+1 counters on creatures you control.],1 - Common,Token,Player,Instant,,Duel
+366,Painful Things,Target opponent chooses: [Deal 3 damage to target creature or player.] or [Deal 2 damage each to up to two target creatures or players.],1 - Common,Damage,Player,Instant,,Duel
+368,Boon/Bane,Flip a coin. Heads: Put a +1/+1 counter on all creatures. Tails: Put a -1/-1 counter on all creatures.,1 - Common,Buff,All,Instant,,Duel
+369,Blast/Bounce,Flip a coin. Heads: Exile target creature. Tails: Return target creature to its owner's hand.,1 - Common,Cards,Player,Instant,,Duel
+370,Non-standard Bounce,Return target creature to controller's hand.,1 - Common,Cards,Player,Instant,,Duel
+371,Really Non-standard Bounce,Put target creature into target player's hand.,1 - Common,Cards,Player,Instant,,Duel
+372,Land-cycling,"Destroy up to five target lands. For each land destroyed this way, its controller searches their library for a land, puts it onto the battlefield, then shuffles their library.",1 - Common,Destruction,Player,Instant,,Duel
+373,Enemies with Benefits,Two target opponents switch life totals.,1 - Common,Meta,Opponent,Instant,,Multi
+374,Who Let the Flock Out?,"Each player creates 1d3 0/1 white/black Exploding Sheep creature tokens with delicious and ""When this creature is blocked, flip a coin. Heads: Sacrifice Exploding Sheep, it deals 2 damage to a creature that blocked it.""",1 - Common,Token,All,Instant,,Duel
+380,Knightly Things,Target opponent chooses: [Create a 2/2 black Black Knight creature token with first strike and protection from white.] or [Create a 2/2 white White Knight creature token with first strike and protection from black.],1 - Common,Token,Player,Instant,,Duel
+383,Secret Tunnels,Target creature can't be blocked this turn.,1 - Common,Buff,Player,Turn,,Duel
+384,"Ooh, Shiny!",Target creature can't block this turn.,1 - Common,Buff,Player,Turn,,Duel
+385,Lawbreakers,"Up to two target creatures gain ""If this creature deals combat damage to a player, that player discards a card and this creature's controller draws a card."" until end of turn.",1 - Common,Cards,Player,Turn,,Duel
+386,Cops,"Detain up to two target creatures your opponents control. (Until your next turn, those creatures can't attack or block and their activated abilities can't be activated.)",1 - Common,Cards,Opponent,Turn,,Duel
+387,Giftbearers,"Whenever you cast a creature from your hand this turn, gain 2 life and draw a card.",1 - Common,Cards,Player,Turn,,Duel
+393,By Order of the Emperor,Creatures you control gain bushido 1 until end of turn.,1 - Common,Buff,Player,Turn,,Duel
+001,Dave's Generosity,"All players search their libraries for a basic land and put it into play tapped, then shuffle their library.",1 - Common,Tutor,All,Instant,Scappoose,Duel
+003,Toby's Vengeance,All players lose 3 life.,1 - Common,Damage,All,Instant,Scappoose,Duel
+006,Dave's Accelerator,All creatures gain +2/+0 when attacking until end of turn.,1 - Common,Buff,All,Turn,Scappoose,Duel
+009,Jeanetic Manipulation,Target creature gains denimwalk.,1 - Common,Buff,Creature,Ongoing,Puns,Duel
+013,Trampoline Party,Creatures you control gain flying until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+014,Sticks and Stilts,Creatures you control gain reach until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+016,Mosh Pit,Creatures you control gain trample until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+023,Polearm Practice,Creatures you control gain first strike until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+025,Hogwarts Invitations,Creatures you control gain prowess until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+026,Extra Coffee Rations,Creatures you control gain vigilance until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+028,Siphonophores,Creatures you control gain lifelink until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+029,Something Clever,Creatures you control gain hexproof until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+031,Amphetamines,Creatures that enter the battlefield under your control this turn gain haste.,1 - Common,Buff,Player,Turn,Basics,Duel
+032,Pyroclasm,All creatures take 2 damage.,1 - Common,Damage,All,Instant,Basics,Duel
+033,Pyroclasm Squared,All creatures take 4 damage.,1 - Common,Damage,All,Instant,Basics,Duel
+035,Stream of Life,Gain 1d10 life.,1 - Common,Life,Player,Instant,Basics,Duel
+045,Fear!,Creatures you control gain intimidate until end of turn.,1 - Common,Buff,Player,Turn,Spanish Inquisition,Duel
+049,The Comfy Chair!,Tap target player.,1 - Common,Wacky,Target Player,Instant,Spanish Inquisition,Duel
+051,Call Stu,Switch life totals with target opponent.,1 - Common,Life,"Player, Opponent",Instant,Shop'n'Swap,Duel
+060,Juxtapose,Exchange control of target creature you control and target creature an opponent controls.,1 - Common,Meta,"Player, Opponent",Instant,Shop'n'Swap,Duel
+074,"Yay, Draw!",Draw three cards.,1 - Common,Cards,Player,Instant,Basics,Duel
+075,"Meh, Draw",You and target opponent each draw three cards.,1 - Common,Cards,"Player, Opponent",Instant,Basics,Duel
+076,"Boo, Draw",Each opponent draws three cards.,1 - Common,Cards,Opponent,Instant,Basics,Duel
+077,"Yay, Life!",Gain four life.,1 - Common,Life,Player,Instant,Basics,Duel
+078,"Meh, Life",You and target opponent each gain four life.,1 - Common,Life,"Player, Opponent",Instant,Basics,Duel
+079,"Boo, Life",Each opponent gains four life.,1 - Common,Life,Opponent,Instant,Basics,Duel
+080,"Yay, Counters!",Distribute two +1/+1 counters among creatures you control.,1 - Common,Buff,Player,Instant,Basics,Duel
+081,"Meh, Counters",Distribute two +1/+1 counters among creatures you control. Target opponent distributes two +1/+1 counters among creatures they control.,1 - Common,Buff,"Player, Opponent",Instant,Basics,Duel
+082,"Boo, Counters",Each opponent distributes two +1/+1 counters among creatures they control.,1 - Common,Buff,Opponent,Instant,Basics,Duel
+083,"Yay, Mill!",Each opponent puts the top two cards of their library into their graveyard.,1 - Common,Cards,Opponent,Instant,Basics,Duel
+084,"Meh, Mill",Put the top two cards of your library into your graveyard. Target opponent puts the top two cards of their library into their graveyard.,1 - Common,Cards,"Player, Opponent",Instant,Basics,Duel
+085,"Boo, Mill",Put the top two cards of your library into your graveyard.,1 - Common,Cards,Player,Instant,Basics,Duel
+086,"Yay, Tourach!",Each opponent discards two cards at random.,1 - Common,Cards,Opponent,Instant,Basics,Duel
+087,"Meh, Tourach",You and target opponent each discard two cards at random.,1 - Common,Cards,"Player, Opponent",Instant,Basics,Duel
+088,"Boo, Tourach",Discard two cards at random,1 - Common,Cards,Player,Instant,Basics,Duel
+090,Clone,Choose a target nontoken creature. Put a token copy of that creature into play under your control.,1 - Common,Token,Player,Instant,Science,Duel
+094,Draw Two,Draw two cards.,1 - Common,Cards,Player,Instant,Uno,Duel
+095,Draw Four,Draw four cards.,1 - Common,Cards,Player,Instant,Uno,Duel
+099,Leng,Skip your discard phase.,1 - Common,Meta,Player,Instant,Basics,Duel
+107,Dark Harvest,"Each player may exile a creature from their graveyard. If they do, they gain life equal to the exiled creature's toughness.",1 - Common,Life,All,Instant,Basics,Duel
+108,We're Ba-ack!,Each player places all exiled cards they own on the bottom of their library in any order.,1 - Common,Cards,All,Instant,References,Duel
+112,Oddly Specific Nuke,Name a nonland card. Destroy all copies of the named card in play.,1 - Common,Destruction,All,Instant,Nukes,Duel
+119,Assassin's Creed,Destroy target tapped creature.,1 - Common,Destruction,Player,Instant,Basics,Duel
+120,Living Lands,All lands become 2/2 creatures in addition to being lands until end of turn.,1 - Common,Cards,All,Turn,Basics,Duel
+123,Lockdown,Tap three target creatures. These creatures do not untap during their controller's next untap step.,1 - Common,Cards,Player,Instant,Basics,Duel
+134,Another Round,"Target player may refill your drink. If they do not, they lose 6 life. If you do not have a drink, slake your thirst for knowledge and draw three cards instead.",1 - Common,Wacky,"Player, Opponent",Instant,Rounders,Duel
+141,Blood Tutor,"You may pay 2 life. If you do, search your library for a card and put it in your hand, then shuffle your library.",1 - Common,Tutor,Player,Instant,Tudors,Duel
+142,Archeology Tutor,"You may sacrifice a land. If you do, search your library for a card and put it in your hand, then shuffle your library.",1 - Common,Tutor,Player,Instant,Tudors,Duel
+143,Surgical Tutor,"You may sacrifice a creature. If you do, search your library for a card and put it in your hand, then shuffle your library.",1 - Common,Tutor,Player,Instant,Tudors,Duel
+144,Tinker Tutor,"You may sacrifice an artifact. If you do, search your library for a card and put it in your hand, then shuffle your library.",1 - Common,Tutor,Player,Instant,Tudors,Duel
+150,Soul Siphon,Each opponent loses 2 life. You gain life equal to the life lost from this effect.,1 - Common,Damage,All,Instant,Basics,Duel
+151,Seeker of Storms,Each player loses 1 life for every card in their hand.,1 - Common,Damage,All,Instant,Basics,Duel
+157,Sneaky Shadows of Stealthy Secrets,Creatures you control gain skulk until end of turn.,1 - Common,Buff,Player,Turn,Basics,Duel
+181,Phyrexian Oil Spill,Double the number of each kind of counter on each permanent that has counters on it. Proliferate.,1 - Common,Buff,Player,Instant,Phyrexia,Duel
+183,Munchies,Target creature gains snackwalk.,1 - Common,Buff,Player,Ongoing,Party,Duel
+191,Swap Meet,Exchange a random card in your hand with a random card in target opponent's hand.,1 - Common,Cards,"Player, Opponent",Instant,Shop'n'Swap,Duel
+192,Dresden's Bracelet,"Create a colourless Bracelet artifact token with ""Remove a Talisman counter from Bracelet: Prevent all damage a source of your choice would deal to you or a planeswalker you control."" Put four Talisman counters on Bracelet.",1 - Common,Token,Player,Instant,Armour,Duel
+194,Minion Siphon,Each player gains 1 life for each creature they control. Deal 1 damage to each creature.,1 - Common,Damage,All,Instant,Basics,Duel
+196,Escalating Pain,"Choose three target creatures, planeswalkers, or players. Deal 1 damage to the first target, 2 to the second, and 3 to the third.",1 - Common,Damage,Player,Instant,Basics,Duel
+197,Increasing Health,"Choose three target players. The first target gains 1 life, the second gains 2, the third gains 3.",1 - Common,Life,Player,Instant,Basics,Multi
+198,Growing Knowledge,"Choose three target players. The first target draws 1 card. the second draws 2, the third draws 3.",1 - Common,Cards,Player,Instant,Basics,Multi
+199,Rising Fury,"Choose three target creatures. Put one +1/+1 counter on the first, two +1/+1 counters on the second, three +1/+1 counters on the third.",1 - Common,Buff,Player,Instant,Basics,Duel
+201,Recycling,Shuffle any number of creatures from your graveyard into your library. Draw a card.,2 - Uncommon,Cards,Player,Instant,Antiquity,Duel
+203,Negation Round,"Until the start of your next turn, all creatures in play and any that enter the battlefield lose their abilities.",2 - Uncommon,Cards,All,Round,Antiquity,Duel
+210,Raid the Library,"Until the start of your next turn, all players skip their discard phase. Each player draws 2d6 cards.",2 - Uncommon,Cards,All,Round,Antiquity,Duel
+211,Luck of the Draw,"Each player names a card and then reveals the top card of their library. If they reveal the named card, they may put it onto the battlefield. Otherwise, they put the card on the bottom of their library and they lose 1 life.",2 - Uncommon,Cards,All,Instant,Antiquity,Duel
+214,Grave Robin Hood,Each player with the lowest life total may choose a creature from any graveyard and put it onto the battlefield under their control.,2 - Uncommon,Cards,All,Instant,Grave,Duel
+215,Grave Sheriff,Choose a creature or artifact from any graveyard and put it onto the battlefield under target opponent's control.,2 - Uncommon,Cards,Player,Instant,Grave,Duel
+216,Group Think,Each player draws a card for each creature they control.,2 - Uncommon,Cards,All,Instant,Antiquity,Duel
+223,Power Outage,Each player loses four energy counters.,2 - Uncommon,Destruction,All,Instant,Kaladesh,Duel
+227,Silly English Knnnnnnuggets,"Until the end of your turn, you may speak in an outrageous accent. If you do not, sacrifice two creatures chosen by target opponent.",2 - Uncommon,Wacky,Player,Turn,,Duel
+228,Exploration,Create a token land of each basic land type (including Wastes).,2 - Uncommon,Token,Player,Instant,,Duel
+229,Trade!,"Choose an unchosen opponent. Look at their hand and choose a card. That opponent may copy this effect and choose a new unchosen player. Once all players have been chosen or the effect is not copied, each player puts the card they chose into their hand.",2 - Uncommon,Cards,All,Instant,,Duel
+231,Rolling Dice of Thunder,"Choose three target creatures or players. Deal 1d4 damage to the first, 1d6 damage to the second, and 1d8 damage to the third.",2 - Uncommon,Damage,Player,Instant,,Duel
+232,Tranquility,Destroy all enchantments.,2 - Uncommon,Destruction,All,Instant,,Duel
+233,Aluren Round,"Until the start of your next turn, all players may play creatures with a CMC of 3 or less without paying their casting cost any time they could play an instant.",2 - Uncommon,Cards,All,Round,,Duel
+235,Bowser,Flip a coin: Heads: Each player with the highest life total loses 5 life. Tails: Each player with the lowest life total gains 5 life.,2 - Uncommon,Life,All,Instant,,Duel
+236,Return of the Weenies,All creatures with power and toughness 2 or below in all graveyards are returned to battlefield under their owner's control.,2 - Uncommon,Cards,All,Instant,,Duel
+237,Alzheimer's,Look at target player's hand and choose three cards. Put those cards on top of their owner's library in any order.,2 - Uncommon,Cards,Target Player,Instant,,Duel
+239,Risky Tutor,"You may search your library for a card and put it in your hand. If you do, shuffle your library, then discard a card at random.",2 - Uncommon,Cards,Player,Instant,,Duel
+243,Acceleration Round,"Until the start of your next turn, each player flips a coin during their upkeep. Heads: that player draws 2 cards. Tails: that player draws 1 card.",2 - Uncommon,Cards,All,Round,,Duel
+245,A Simple Wager,You and target opponent each exile a card from hand. Flip a coin. Heads: you put both cards in your hand. Tails: opponent puts both cards in their hand.,2 - Uncommon,Cards,"Player, Opponent",Instant,,Duel
+251,Super Generousity,"All players search their libraries for up to three basic lands and put them into play tapped, then shuffle their library.",2 - Uncommon,Cards,All,Instant,,Duel
+253,It's Dangerous to Go Alone,Create a 2/3 green Hylian Hero creature token with first strike.,2 - Uncommon,Token,Player,Instant,Reference,Duel
+255,Cake or Death,Choose one: [Gain 5 life.] or [Deal 5 damage divided as you choose among any number of creatures or players.],2 - Uncommon,Life,All,Instant,Player Choice,Duel
+260,Q Branch Gadget,"Target creature gains your choice of one of the following: first strike, skulk, or hexproof.",2 - Uncommon,Buff,Player,Ongoing,Bond,Duel
+261,Q Branch Gizmo,"Target creature gains your choice of one of the following: trample, flying, or menace.",2 - Uncommon,Buff,Player,Ongoing,Bond,Duel
+265,Creature Wipe,Destroy all creatures.,2 - Uncommon,Destruction,All,Instant,,Duel
+266,Creature Bounce,Return all creatures to their owner's hand.,2 - Uncommon,Cards,All,Instant,,Duel
+267,Creature Purge,Exile all creatures.,2 - Uncommon,Destruction,All,Instant,,Duel
+271,License to Kill,"Create a 1/1 black Bond creature token with hexproof, undying, and ""T: Destroy target tapped creature.""",2 - Uncommon,Token,Player,Instant,Bond,Duel
+273,Doctor's Visit,Destroy all auras that do not share a controller with their target.,2 - Uncommon,Destruction,All,Instant,,Duel
+277,House Swap,Exchange control of all creatures you control and all creatures controlled by target opponent.,2 - Uncommon,Cards,"Player, Opponent",Instant,,Duel
+278,Temporary Visa,Exchange control of all token creatures you control and all token creatures controlled by target opponent.,2 - Uncommon,Cards,"Player, Opponent",Instant,,Duel
+279,Bottled Counterspell,"Create a colourless Counter Bottle artifact token with ""Sacrifice Counter Bottle: Counter target spell."".",2 - Uncommon,Token,Player,Instant,,Duel
+280,Bottled Lightning,"Create a colourless Lightning Bottle artifact token with ""Sacrifice Lightning Bottle: Deal 3 damage to target creature or player.""",2 - Uncommon,Token,Player,Instant,,Duel
+281,Bottled Health,"Create a colourless Health Bottle artifact token with ""Sacrifice Health Bottle: Gain 3 life or prevent 3 damage to target creature or player.""",2 - Uncommon,Token,Player,Instant,,Duel
+282,Mime Round,"Until the start of your next turn, any time a player speaks, they lose 1 life for each word spoken.",2 - Uncommon,Damage,All,Round,,Duel
+283,Motion Sensor,"Create a colourless Motion Sensor artifact token with ""Target player balances Motion Sensor on target hand. If Motion Sensor falls off the hand, sacrifice Motion Sensor and that player loses 3 life."".",2 - Uncommon,Token,Player,Instant,,Duel
+284,Professor Marvel,"Create a colourless Crystal Ball artifact token with ""Pay 3 life: Choose target player. That player's hand is revealed until a new target for Crystal Ball is chosen. Any player may activate this ability.""",2 - Uncommon,Token,Player,Instant,,Duel
+286,The Highest of Fives,"Each player may high five the player to both sides of them. If they do not, they lose 5 life.",2 - Uncommon,Wacky,All,Instant,,Multi
+290,Negaverse,"Until the start of your next turn, all creatures' power and toughness are switched.",2 - Uncommon,Buff,All,Round,,Duel
+292,Blue in the Face,Have a breath holding contest with target opponent. Winner draws two cards. Loser discards two cards.,2 - Uncommon,Wacky,"Player, Opponent",Instant,,Duel
+295,Evolution,"You may sacrifice a creature. If you do, search your library for a creature card of the same colour and put that card into play, then shuffle your library.",2 - Uncommon,Tutor,Player,Instant,,Duel
+296,BSOD,"Return all blue creatures to their owner's hand. Until end of game, all creatures are blue in addition to their other colours.",2 - Uncommon,Cards,All,Ongoing,,Duel
+302,Group Life,Gain 1 life for each creature in play.,2 - Uncommon,Life,Player,Instant,,Duel
+304,Sorcerors' Day Camp,"Until the end of your turn, all creatures you control gain ""T: Deal 1 damage to target creature or player.""",2 - Uncommon,Buff,Player,Turn,,Duel
+306,Mana Salve,"Until the end of your turn, every time you tap a land for mana, gain 1 life.",2 - Uncommon,Life,Player,Turn,,Duel
+307,Mana Burn,"Until the end of your turn, mana pools do not empty at the end of each phase. At the beginning of your end step, each player loses 1 life for each unspent mana in their mana pool.",2 - Uncommon,Life,All,Turn,,Duel
+309,Race Time,Vehicles you control become artifact creatures until end of turn. All creatures you control gain +1/+0 until end of turn.,2 - Uncommon,Buff,Player,Turn,,Duel
+311,Bonus!,"Each player reveals the top card of their library. If it is a permanent, they may put it into play. If it is a spell, they may play it without paying its casting cost. Otherwise, they put the card in their hand.",2 - Uncommon,Cards,All,Instant,,Duel
+312,Anti-Bob,"Each player reveals the top card of their library, gains life equal to that card's converted mana cost, then puts that card in their hand.",2 - Uncommon,Life,All,Instant,,Duel
+314,Omega Tim,"Create a 1/1 blue Omega Tim creature token with ""T: Deal 1d6 damage to target creature or player.""",2 - Uncommon,Token,Player,Instant,,Duel
+315,Hurkyl's Mixer,"Coin flip direction (Heads:Left, Tails:Right). Put all artifacts target player controls into the player in that direction's hand.",2 - Uncommon,Meta,Target Player,Instant,,Duel
+317,Ultra Tim,"Create a 1/1 blue Ultra Tim creature token with ""T: Deal 1d3 damage to target creature or player.""",2 - Uncommon,Token,Player,Instant,,Duel
+320,Trade-In Value,"You may sacrifice a creature. If you do, place a creature with equal or lesser converted mana cost onto the battlefield from your graveyard or hand.",2 - Uncommon,Cards,Player,Instant,,Duel
+323,Catch-up,Choose one: [Draw enough cards to have one more card in hand than the opponent with the most cards in hand.] or [Deal 1 damage each to up to three target creatures or players.],2 - Uncommon,Cards,Player,Instant,,Duel
+325,Abeyance,"Until the end of your turn, target player can't cast instant or sorcery spells, and that player can't activate abilities that aren't mana abilities. Draw a card.",2 - Uncommon,Meta,Target Player,Turn,,Duel
+327,Looter,"Target creature gains ""Whenever this creature deals combat damage to a player, you may draw a card.""",2 - Uncommon,Buff,Creature,Ongoing,,Duel
+330,Hogwarts Messengers,You may draw a card for each creature with flying on the battlefield.,2 - Uncommon,Cards,Player,Instant,,Duel
+333,Put Your Left Hand In,Target player chooses a card from their hand and puts it in the player to their left's hand.,2 - Uncommon,Meta,Target Player,Instant,,Multi
+334,Put Your Right Hand Out,Target player chooses a card at random from the player to their right's hand and puts it in their hand.,2 - Uncommon,Meta,Target Player,Instant,,Multi
+335,Put Your Whole Self In,"Target player creates an */* colourless Avatar creature token with ""* equals controller's current life total."" and ""At the beginning of your upkeep, Avatar gains your choice of one of the following: trample, flying, menace, vigilance, or first strike until end of turn.""",2 - Uncommon,Token,Target Player,Instant,,Duel
+336,And Shake It All About,"Each player may do the hokey-pokey. If they do not, they lose 3 life and discard a card at random.",2 - Uncommon,Damage,All,Instant,,Duel
+337,The Salmon Mousse,All players get a poison counter.,2 - Uncommon,Damage,All,Instant,,Duel
+339,Go Against A Sicilian,"Put a small item in one of your hands behind your back then present your closed hands to target opponent. They pick a hand. If they pick the hand containing the marker, they get two poison counters. Otherwise, you get two poison counters.",2 - Uncommon,Damage,"Player, Opponent",Instant,,Duel
+341,Untrustworthy Caterers,Each opponent gets a poison counter.,2 - Uncommon,Damage,All,Instant,,Multi
+343,Toxic Clouds,Creatures you control gain infect until end of turn.,2 - Uncommon,Buff,Player,Turn,,Duel
+344,Leeches,Remove 1d6 poison counters.,2 - Uncommon,Life,Player,Instant,,Duel
+345,Free Clinic,Each player removes 1d4 (rolled separately) poison counters.,2 - Uncommon,Life,All,Instant,,Duel
+353,Ghost Sightings,Each player manifests the top card of their library.,2 - Uncommon,Cards,All,Ongoing,,Duel
+354,Bone Grinder,"Until the start of your next turn, any time a creature goes into any graveyard from play, create a 1/1 black Skeleton creature token.",2 - Uncommon,Token,Player,Round,,Duel
+357,"Derp, Party of Derp","For each opponent, a target creature that opponent controls loses all abilities and becomes a colourless 0/1 Derp until end of turn.",2 - Uncommon,Cards,All,Turn,,Duel
+358,SUPER WACKY RANDOM TIME,"Choose up to three creatures you control. For each, roll 1d4. 1: Creature gains flying, trample, and vigilance. Put a +1/+1 counter on creature. 2: Random opponent gains control of creature. 3: Physically throw card at target opponent, who must remain still. If card hits opponent, they lose life equal to the creature's power plus its toughness. Sacrifice creature. 4: Each player creates X 1/1 green Squirrel token creatures. X is equal to the creature's CMC.",2 - Uncommon,Wacky,All,Instant,,Duel
+360,Chaos Shower,Choose up to four cards in play that you control. Flip these cards onto the battlefield from a height of at least one foot. Destroy all nontoken permanents the cards touch. Then destroy the cards.,2 - Uncommon,Destruction,Player,Instant,,Duel
+367,Ron Swanson,"Create three 3/2 deliciously marbled red/white Bacon creature tokens with delicious and ""When Bacon is put into a graveyard from play, put a +1/+1 counter on a creature you control or gain 2 life."" (Delicious creatures must be blocked if able.)",2 - Uncommon,Token,Player,Instant,,Duel
+375,Baa-ad Moon Rising,"Create a double-sided Sheep creature token: Front: Sheep, Creature - Innocent Fluff, 0/3, Delicious, When Sheep becomes blocked, flip it. Back: Black Sheep, Creature - Nightmare Fluff, 4/3, Double strike, Provoke, If a creature dealt damage by Black Sheep goes to the graveyard this turn, put a Satiate counter on Black Sheep. Then if there are two or more Satiate counters on Black Sheep, remove all Satiate counters and flip it.",2 - Uncommon,Token,Player,Instant,,Duel
+376,Doubling Round,"Until the start of your next turn, if an effect would create one or more tokens under your control, it creates twice that many of those tokens instead and if an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.",2 - Uncommon,Meta,Player,Round,,Duel
+379,Oprah Tutor,"Choose a card type. Each player may search their library for a card of the chosen type, reveal it, put it in their hand, then shuffle their library.",2 - Uncommon,Tutor,All,Instant,,Duel
+381,Vacation,Target player skips his or her next combat phase.,2 - Uncommon,Meta,Player,Instant,,Duel
+382,Janitorial Services,Target player skips his or her next upkeep phase.,2 - Uncommon,Meta,Player,Instant,,Duel
+388,Halloween,"If it is October, all monsters (werewolves, vampires, skeletons, etc.) gain +3/+3 and menace until end of turn.",2 - Uncommon,Buff,All,Turn,,Duel
+389,Low Planar Orbit,Target creature cannot be blocked except by creatures with both flying and reach until end of turn.,2 - Uncommon,Buff,Player,Turn,,Duel
+390,Lil' Sebastian,Target creature gains horsemanship until end of turn.,2 - Uncommon,Buff,Player,Turn,,Duel
+391,Magnetic Repulsion,"Until the start of your next turn, all artifacts gain flying.",2 - Uncommon,Buff,All,Round,,Duel
+392,Portrait Layout,Tap everything.,2 - Uncommon,Wacky,All,Instant,,Duel
+394,Tasty Draught,"Create a colourless Bacon-Infused Courage artifact token with ""Sacrifice Bacon-Infused Courage: Target creature gains +1/+1, delicious, and indestructible until end of turn."" (Delicious creatures must be blocked if able.)",2 - Uncommon,Token,Player,Instant,,Duel
+395,Stop Worrying and Love the Bomb,"You get a Doomsday Weapon emblem with ""Sacrifice Doomsday Weapon, pay 6 life: Destroy all creatures, artifacts, and lands. All other players lose 4 life.""",2 - Uncommon,Token,Player,Instant,,Duel
+396,Land Rush,"Reveal the top ten cards of your library. Put any lands revealed onto the battlefield, tapped. Put the remaining cards on the bottom of your library in a random order.",2 - Uncommon,Cards,Player,Instant,,Duel
+397,Heavy Fortifications,"You and target opponent each create a colourless 0/10 Planetary Defense System token artifact creature with defender, reach, and ""Planetary Defense System can block any number of creatures.""",2 - Uncommon,Token,"Player, Opponent",Instant,,Multi
+398,Diluvian Recursion,"For each opponent, you may cast up to one target instant or sorcery card from that player's graveyard without paying its mana cost. If a card cast this way would be put into a graveyard this turn, exile it instead.",2 - Uncommon,Cards,All,Instant,,Duel
+002,CJ Freeze,"Until the start of your next turn, each opponent may only untap one land during their untap phase.",2 - Uncommon,Cards,All,Round,Scappoose,Duel
+004,David's Celerity,"Until the start of your next turn, the casting cost of all spells is reduced by (1).",2 - Uncommon,Cards,All,Round,Scappoose,Duel
+005,Mirage Redux,"Target opponent, their hand, library, graveyard, and all permanents they control phase out.",2 - Uncommon,Wacky,Opponent,Instant,Basics,Multi
+007,Spy Games,Choose an unchosen opponent. Look at the top three cards of their library and put them back in any order. That opponent may copy this effect and choose a new unchosen player.,2 - Uncommon,Wacky,Opponent,Instant,Bond,Duel
+011,Ma'ruf's Circlet,All players may choose a card they own from outside of the game and put it into their hand.,2 - Uncommon,Cards,All,Instant,Shop'n'Swap,Duel
+012,Dead Man's Party,Creatures you control lose their abilities and become 2/2 black Zombies until end of turn.,2 - Uncommon,Cards,Player,Turn,Dammit Joe,Duel
+015,Beach Party,Creatures you control gain islandwalk until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+017,Tent Revival,Creatures you control gain indestructible until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+018,Climbing Trek,Creatures you control gain mountainwalk until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+019,Peat Harvesting,Creatures you control gain swampwalk until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+020,Camping Trip,Creatures you control gain forestwalk until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+021,Road Trip,Creatures you control gain plainswalk until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+022,Riot,Creatures you control gain melee until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Multi
+024,PCP in the water supply,Creatures you control gain double strike until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+027,Poisoned Blades,Creatures you control gain deathtouch until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+030,Overrun,Creatures you control gain +3/+3 and trample until end of turn.,2 - Uncommon,Buff,Player,Turn,Basics,Duel
+034,Pyroclasm Cubed,All creatures take 8 damage.,2 - Uncommon,Damage,All,Instant,Basics,Duel
+036,River of Life,Gain 1d20 life.,2 - Uncommon,Life,Player,Instant,Basics,Duel
+037,Ocean of Life,Gain 2d10 life. All opponents gain 1d10 life (roll separately).,2 - Uncommon,Life,All,Instant,Basics,Duel
+044,Surprise!,"Search your library for up to 3 creatures and put them into play, untapped, then shuffle your library. They gain haste.",2 - Uncommon,Cards,Player,Instant,Spanish Inquisition,Duel
+047,An almost fanatical devotion to the Pope!,Create 1d6 1/1 white Spirit creature tokens with flying.,2 - Uncommon,Token,Player,Instant,Spanish Inquisition,Duel
+048,Nice red uniforms!,Create 1d3 4/4 red Dragon creature tokens with flying.,2 - Uncommon,Token,Player,Instant,Spanish Inquisition,Duel
+050,Mini-Disk,"Each player sacrifices one land, creature, or artifact.",2 - Uncommon,Destruction,All,Instant,Basics,Duel
+052,Phyrexian Suitcase,"You may pay X life to put a token copy of any card you own from ouside the game into play, where X is half (rounded up) of that card's converted mana cost.",2 - Uncommon,Cards,Player,Instant,Phyrexia,Duel
+053,Cloak of Eyes,Scry 10.,2 - Uncommon,Cards,Player,Instant,Basics,Duel
+055,Redshirt Brigade,Create 2d4+1 0/1 red/white Starfleet Ensign creature tokens with defender and reach.,2 - Uncommon,Token,Player,Instant,Brigades,Duel
+056,Squirrel Brigade,Create X 1/1 green Squirrel creature tokens. X is the number of lands on the battlefield.,2 - Uncommon,Token,Player,Instant,Brigades,Duel
+057,Skeleton Brigade,Create X 1/1 black Skeleton creature tokens. X is the number of creatures in all graveyards.,2 - Uncommon,Token,Player,Instant,Brigades,Duel
+059,Tradewinds,"You may exchange control of up to one each of a creature, artifact, enchantment, and land for control of a card of the same type that an opponent controls.",2 - Uncommon,Meta,"Player, Opponent",Instant,Shop'n'Swap,Duel
+063,Bite of the Black Rose,Players Vote: Sickness or Psychosis. Sickness: creatures your opponents control get -2/-2 until end of turn. Psychosis/tie: each opponent discards two cards.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+064,Coercive Portal,Players Vote: Carnage or Homage. Carnage: destroy all nonland permanents. Homage/tie: draw three cards.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+065,Council's Judgement,Players Vote: Each player votes for a nonland permanent you don't control. Exile each permanent with the most votes or tied for most votes.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+066,Custodi Squire,"Players Vote: Each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand.",2 - Uncommon,Vote,All,Instant,Democracy,Multi
+067,Magister of Worth,Players Vote: Grace or Condemnation. Grace: each player returns each creature from their graveyard to the battlefield. Condemnation/tie: destroy all creatures.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+068,Plea for Power,Players Vote: Time or Knowledge. Time: you take an extra turn after this one. Knowledge/tie: draw six cards.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+069,Tyrant's Choice,Players Vote: Death or Torture. Death: each opponent sacrifices a creature. Torture/tie: each opponent loses 4 life.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+070,Lietenant of the Guard,Players Vote: Strength or Numbers. Put a +1/+1 counter on a creature you control for each Strength vote. Create a 1/1 white Soldier token creature for each Numbers vote.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+089,Rainbow Vale,"Until the end of your turn, your lands produce any colour of mana when tapped.",2 - Uncommon,Cards,Player,Turn,Basics,Duel
+091,Enhanced Mitosis,Choose a target nontoken creature. Put two token copies of that creature into play under your control.,2 - Uncommon,Token,Player,Instant,Science,Duel
+092,Reverse,Reverse the direction of play.,2 - Uncommon,Meta,All,Ongoing,Uno,Multi
+093,Skip,Skip the next player's turn.,2 - Uncommon,Meta,Opponent,Instant,Uno,Multi
+096,Uno,All players discard down to one card.,2 - Uncommon,Cards,All,Instant,Uno,Duel
+097,Feldon,Shuffle your graveyard into your library.,2 - Uncommon,Cards,Player,Instant,Basics,Duel
+100,Call of the Reaper,"All players lose half their current life, rounded down.",2 - Uncommon,Damage,All,Instant,Basics,Duel
+102,Mulligan,All players discard their hands and draw seven cards.,2 - Uncommon,Cards,All,Instant,Basics,Duel
+103,Forced Topdecking,Target player discards their hand.,2 - Uncommon,Cards,Target Player,Instant,Basics,Duel
+105,Swapped at Birth,Put a Fae counter on each of up to five target creatures. Creatures with Fae counters have changeling.,2 - Uncommon,Buff,Player,Ongoing,References,Duel
+106,Tribal Nuke,Choose a creature type. Destroy all creatures of the chosen type.,2 - Uncommon,Destruction,All,Instant,Nukes,Duel
+110,Alphabet Nuke,Choose a letter. Destroy all nonland permanents with a name beginning with that letter.,2 - Uncommon,Destruction,All,Instant,Nukes,Duel
+111,Mana Nuke,Pick a number. Destroy all nonland permanents with a converted mana cost equal to that number.,2 - Uncommon,Destruction,All,Instant,Nukes,Duel
+113,Green Buff,All green creatures gain +2/+1 and trample until end of turn.,2 - Uncommon,Buff,All,Instant,Buffs,Duel
+114,Red Buff,All red creatures gain +1/+1 and double strike until end of turn.,2 - Uncommon,Buff,All,Instant,Buffs,Duel
+115,White Buff,All white creatures gain +1/+2 and vigilance until end of turn.,2 - Uncommon,Buff,All,Instant,Buffs,Duel
+116,Blue Buff,All blue creatures gain +1/+1 and flying until end of turn.,2 - Uncommon,Buff,All,Instant,Buffs,Duel
+117,Black Buff,All black creatures gain +1/+1 and lifelink until end of turn.,2 - Uncommon,Buff,All,Instant,Buffs,Duel
+121,Black Vase,"Each player loses 1 life for each cup, glass, or other liquid container on the table.",2 - Uncommon,Damage,All,Instant,Puns,Duel
+122,Nordstrom's Rack,Each player loses 1 life for each item of clothing they are wearing.,2 - Uncommon,Damage,All,Instant,Puns,Duel
+124,Green Djinn,Flip a coin. Heads: Create two 3/3 green Elephant creature tokens. Tails: Lose 3 life.,2 - Uncommon,Token,Player,Instant,Djinns,Duel
+125,Red Djinn,"Flip a coin. Heads: Deal 3 damage to each of two target creatures, planeswalkers, or players. Tails: Lose 3 life.",2 - Uncommon,Damage,Player,Instant,Djinns,Duel
+126,White Djinn,Flip a coin. Heads: Choose up to three target creatures you control. Put two +1/+1 counters on each of those creatures. Tails: Lose 3 life.,2 - Uncommon,Buff,Player,Instant,Djinns,Duel
+127,Blue Djinn,Flip a coin. Heads: Return two target permanents you control and three target permanents you don't control to their owners' hands. Tails: Lose 3 life.,2 - Uncommon,Cards,Player,Instant,Djinns,Duel
+128,Black Djinn,Flip a coin. Heads: Choose up to three target creatures you don't control. Put two -1/-1 counters on each of those creatures. Tails: Lose 3 life.,2 - Uncommon,Buff,Player,Instant,Djinns,Duel
+129,Dingus Round,"Until the start of your next turn, any time a land is destroyed, its controller loses 2 life.",2 - Uncommon,Damage,All,Round,Rounders,Duel
+131,Barbs Round,"Until the start of your next turn, any time a player taps a land for mana, they lose one life.",2 - Uncommon,Damage,All,Round,Rounders,Duel
+132,Telepathy Round,"Until the start of your next turn, all players play with their hands and the top card of their library revealed.",2 - Uncommon,Meta,All,Round,Rounders,Duel
+133,Flare Round,"Until the start of your next turn, any time a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced ",2 - Uncommon,Cards,All,Round,Rounders,Duel
+136,Zerg Rush,Each player creates 2d6 (rolled separately) 1/1 colourless Zergling creature tokens with haste.,2 - Uncommon,Token,All,Instant,References,Duel
+137,Switzerland,"If no sources you control deal damage this turn, until the start of your next turn you cannot be the target of attacks and all damage that would be dealt to you is reduced to 0.",2 - Uncommon,Wacky,Player,Round,Armour,Duel
+138,Micro-Scheherazade,"Play a best of three Rock-Paper-Scissors match against target opponent. Loser loses half their current life (rounded down). Tie break coin flip (Heads: you win, Tails: opponent wins).",2 - Uncommon,Meta,"Player, Opponent",Instant,References,Duel
+140,So Done With This,Players Vote: Whatever or Persist. Whatever: You win the game. Persist/tie: The game continues. Players who voted Persist lose 2 life.,2 - Uncommon,Vote,All,Instant,Democracy,Multi
+145,OG Tutor,"You may search your library for a card and put it in your hand. If you do, shuffle your library.",2 - Uncommon,Tutor,Player,Instant,Tudors,Duel
+146,Fancy Tutor,"You may search your library for a foil card, reveal it, and put it in your hand. If you do, shuffle your library.",2 - Uncommon,Tutor,Player,Instant,Tudors,Duel
+149,Phyrexian Braingeyser,"You may pay X life. If you do, draw X+1 cards.",2 - Uncommon,Cards,Player,Instant,Phyrexia,Duel
+153,Thopter Brigade,Create 1d10 0/1 colourless Thopter artifact creature tokens with flying.,2 - Uncommon,Token,Player,Instant,Brigades,Duel
+154,Scryb Brigade,Create 1d4 1/1 green Sprite fae creature tokens with flying.,2 - Uncommon,Token,Player,Instant,Brigades,Duel
+167,Robot Squires,Create X 0/1 colourless Robobutler artifact creature tokens with defender. X is equal to the number of nontoken creatures you control. Target opponent may create Y 0/1 colourless Robobutler artifact creature tokens with defender. Y is equal to the number of nontoken creatures they control.,2 - Uncommon,Token,"Player, Opponent",Instant,Armour,Duel
+168,Antici...,Draw five cards. You cannot cast spells this turn. Skip your discard phase.,2 - Uncommon,Meta,Player,Turn,Rocky Horror,Duel
+169,...pation,You can cast up to four spells this turn without paying their mana cost.,2 - Uncommon,Cards,Player,Turn,Rocky Horror,Duel
+170,Mist Round,"Until the start of your next turn, all combat damage dealt to creatures is reduced to 0.",2 - Uncommon,Buff,All,Round,Rounders,Duel
+171,Furnace Round,"Until the start of your next turn, all damage dealt by sorceries and instants is doubled.",2 - Uncommon,Damage,All,Round,Rounders,Duel
+176,"O, Canada!",Put a Maple counter on each of up to five target basic lands. Lands with Maple counters are snow lands.,2 - Uncommon,Cards,All,Ongoing,Canada,Duel
+177,Battle Moose,Target creature gains snow landwalk.,2 - Uncommon,Buff,Player,Ongoing,Canada,Duel
+178,Canadian Round,"Until the start of your next turn, whenever a source deals damage to a target, that source's controller may apologize to the target. If they do not, the damage is reduced to 0.",2 - Uncommon,Wacky,All,Round,Canada,Duel
+182,Phyrexian Syrup,Put a Maple counter on each of up to two target creatures. Proliferate. Creatures with Maple counters are delicious (Delicious creatures must be blocked if able).,2 - Uncommon,Buff,Player,Ongoing,Canada,Duel
+186,Alphabet Shield,Choose a letter. Target creature gains protection from cards beginning with that letter.,2 - Uncommon,Buff,Player,Instant,Armour,Duel
+187,Bouncy House,"Roll 1d6: [1=White, 2=Blue, 3=Red, 4=Black, 5=Green] Return all permanents of the rolled colour to their owner's hands. On a 6, return all colourless nonland permanents to their owner's hands.",2 - Uncommon,Cards,All,Instant,Dammit Joe,Duel
+193,Gravity Round,"Until the start of your next turn, all creatures with flying lose flying.",2 - Uncommon,Buff,All,Round,Rounders,Duel
+195,Wild Flailing,"Choose a creature an opponent controls. That creature deals X damage to Y target creatures. X is equal to that creature's power, Y is equal to that creature's toughness.",2 - Uncommon,Damage,Player,Instant,Dammit Joe,Duel
+205,Price of Immortality,"You get an Immortal emblem with ""Immortal enters the battlefield with 1d3 Time counters on it.You cannot be the target of attacks. You and creatures you control gain hexproof. During your upkeep, each opponent gains life equal to twice the Time counters on Immortal and for each opponent you lose life equal to the number of Time counters on Immortal. At the beginning of your end step, remove a Time counter from Immortal. If there are no Time counters on Immortal, sacrifice it.""",3 - Rare,Token,All,Instant,Antiquity,Multi
+207,Freebie*,"Reveal the top card of your library. If it is a permanent, you may put it into play or back on top of your library. Otherwise, lose 1 life and put it in your hand. Repeat this until a permanent is revealed.",3 - Rare,Cards,Player,Instant,Antiquity,Duel
+209,Sniper Training,"Put X Caliber counters on target creature, X is equal to the creature's power. Creature's base Power becomes 0 and it gains defender and ""T: Deal X damage to target attacking creature, where X is the number of Caliber counters on this creature.""",3 - Rare,Buff,Creature,Ongoing,Antiquity,Duel
+217,RoboRosewater,Put a proxy of the day's card into your hand.,3 - Rare,Cards,Player,Ongoing,Twitter,Duel
+218,A-10-uation,"You get a Tenner emblem with ""Sacrifice Tenner: Add or subtract 10 from the value of X in any X effect.""",3 - Rare,Token,Player,Instant,Puns,Duel
+220,Spare Batteries,"Create three colourless Duracell artifact tokens with ""Sacrifice Duracell: You get three energy counters.""",3 - Rare,Token,Player,Instant,Kaladesh,Duel
+224,Energizing Conversion,"Until the end of your turn, you may spend one energy counter to put a +1/+1 counter on a creature you control.",3 - Rare,Buff,Player,Turn,Kaladesh,Duel
+230,OVER 9000!,"Until the start of your next turn, all creatures gain +9/+9, vigilance, and ""If damage would reduce this creature's toughness to 0, it reduces it to 1 instead."".",3 - Rare,Buff,All,Round,,Duel
+234,Seraph,"Until the end of your turn, any time a source you control deals damage to a creature, if that creature would go into a graveyard, return it to the battlefield under your control.",3 - Rare,Cards,Player,Turn,,Duel
+238,Renewal Round,"Until the start of your next turn, any time a card would go into any graveyard from play, place it at the bottom of its owner's library. At the start of your next turn, all players shuffle their libraries.",3 - Rare,Cards,All,Round,,Duel
+240,Isolation Chambers,"Until the start of your next turn, players can only play spells or activate abilities during their turn.",3 - Rare,Meta,All,Round,,Duel
+244,Goblin Gambit,"Each player chooses a card in their hand. Simultaneously reveal chosen cards. The creature, enchantment, and artifact with the lowest CMC are put onto the battlefield under their owner's control. Each player who put a card into play loses life equal to that card's CMC. ",3 - Rare,Wacky,All,Instant,,Multi
+247,I'm a Lich Now,"You get a Phylactery emblem with ""If your life total would be reduced to 0, sacrifice Phylactery: your life total becomes 10, choose 1 creature and 1 land, sacrifice all other permanents you control, discard your hand, shuffle your graveyard into your library, draw 7 cards.""",3 - Rare,Token,Player,Instant,,Duel
+248,"Gonti, Why?!","Look at the top four cards of target opponent's library, exile one of them face down, then place the rest on the bottom of their library in a random order. For as long as that card remains exiled, you may look at it, you may cast it, and you may spend mana as though it were mana of any type to cast it.",3 - Rare,Cards,"Player, Opponent",Ongoing,,Duel
+250,Antagonist's Choice,Reveal the top five cards of your library. Target opponent separates those cards into two face-up piles. Put one pile into your hand and the other into your graveyard.,3 - Rare,Cards,"Player, Opponent",Instant,,Duel
+254,Take This,"Create a colourless Master Sword artifact equipment token with ""Equip (2)."" and ""Equipped creature gains +3/+2 and menace.""",3 - Rare,Token,Player,Instant,Reference,Duel
+256,Pern,Create a 3/3 red Dragonrider creature token with flying and first strike. Target opponent creates 1d3 1/1 black Thread creature tokens with flying and deathtouch.,3 - Rare,Token,"Player, Opponent",Instant,Reference,Duel
+268,Creature Replication,Each player creates a token copy of each non-legendary creature they control.,3 - Rare,Token,All,Instant,,Duel
+269,Creature Mirror,"Choose an unchosen opponent. Create a token copy of each non-legendary, nontoken creature that opponent controls. That opponent may copy this effect and choose a new unchosen player.",3 - Rare,Token,All,Instant,,Duel
+270,Aston-Martin,"Create a 4/3 colourless DB-7 artifact vehicle token with haste, first strike, and ""Crew 1"".",3 - Rare,Token,Player,Instant,Bond,Duel
+275,Hand Transplant,Trade hands with target opponent.,3 - Rare,Meta,"Player, Opponent",Instant,,Duel
+276,Foreign Exchange Program,Exile all creatures you control. Gain control of all creatures target opponent controls. Return all exiled creatures to the battlefield under their control.,3 - Rare,Cards,"Player, Opponent",Instant,,Duel
+285,Playing Politics,"Exile up to two creatures, two artifacts, and two lands controlled by opponents. Return each exiled card to the battlefield under an opponent's control.",3 - Rare,Cards,All,Instant,,Multi
+287,Joseph Heller,Target player becomes Major Major Major Major and must be referred to by that full name and saluted whenever addressed directly until the end of the game. Any player who does not use the full name or salute when appropriate must put the top card of their library into their graveyard.,3 - Rare,Wacky,All,Ongoing,,Duel
+288,Brrrrt,"Create a 4/6 colourless A-10 Warthog artifact vehicle token with flying, vigilance, 30 mm GAU-8 Avenger rotary cannon, depleted uranium rounds, titanium armour plating and ""Crew 2"". Create a 2/1 white Captain Kim Campbell creature token with ""Whenever Captain Kim Campbell crews a Vehicle, it gains indestructible until end of turn."".",3 - Rare,Token,Player,Instant,,Duel
+291,Mox Lotus,Add infinite colourless mana to your mana pool at the start of your first main phase.,3 - Rare,Wacky,Player,Turn,,Duel
+293,What Happened to the Moon?,"Exile target nontoken creature you own. Return exiled creature to play at the beginning of your upkeep on your turn X of the next game you play with the same opponent, where X is the removed creature's converted mana cost.",3 - Rare,Meta,Player,Instant,,Duel
+308,Royal Protector,"You become the monarch. Target creature gains ""All damage that would be dealt to you is dealt to this creature instead.""",3 - Rare,Buff,Player,Ongoing,,Duel
+318,Circle of Protection: Chaos,"Until the start of your next turn, any player may pay 2 life at the start of each Chaos Phase. If they do, they gain protection from chaos until end of turn.",3 - Rare,Meta,All,Round,,Duel
+319,"Terrible, Horrible, No Good, Very Bad Day",Random player's life total becomes 1.,3 - Rare,Life,Player,Instant,,Duel
+321,Chaos Sleight,"Roll 1d6: [1=White, 2=Blue, 3=Red, 4=Black, 5=Green, 6=Generic] Replace all mana symbols on one card with the rolled selection. Keep the CMC of abilities the same.",3 - Rare,Wacky,Player,Ongoing,,Duel
+322,Chaos Hack,"Roll 1d6: [1=Plains, 2=Island, 3=Mountain, 4=Swamp, 5=Forest, 6=Non-basic] Replace all land references on one card with the rolled selection.",3 - Rare,Wacky,Player,Ongoing,,Duel
+324,Abundance,"Until the end of your turn, if you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.",3 - Rare,Cards,Player,Turn,,Duel
+347,Some Call Me... Tim?,"Create a Tim, Ascendant planeswalker token.",3 - Rare,Token,Player,Instant,,Duel
+349,Struggle for Dominance,Arm wrestle target opponent (opponent picks left or right arm). Winner gains control of up to one of loser's creatures and draws a card. Loser discards a card.,3 - Rare,Wacky,"Player, Opponent",Instant,,Duel
+350,Lord of Chaos,Create a Lord of Chaos planeswalker token.,3 - Rare,Token,Player,Instant,,Duel
+352,That's A Lotta Nuts!,"You get a Bag of Nuts emblem with ""At the beginning of your upkeep, create a 1/1 green Squirrel token creature.""",3 - Rare,Token,Player,Instant,,Duel
+355,Check the Errata,"Target creature gains first strike. If it has first strike it gains lifelink and trample. If it has lifelink it gains flying. If it has trample it gains deathtouch. If it has these five abilities, put five +1/+1 counters on it.",3 - Rare,Buff,Creature,Ongoing,,Duel
+356,Nerf Bat,"Choose an ability keyword. Until the start of your next turn, all creatures in play and any creatures that enter the battlefield lose chosen ability.",3 - Rare,Cards,All,Turn,,Duel
+361,Sen Quadruplets,"Until the end of your turn, gain control of target permanent target opponent controls. That opponent can't play spells or activated abilities and plays with their hand revealed this turn. You may play cards from that player's hand this turn and may spend mana as though it were mana of any type to do so.",3 - Rare,Cards,"Player, Opponent",Turn,,Multi
+377,Time Sprain,"Until the start of your next turn, each opponent takes an extra turn after their regular turn.",3 - Rare,Meta,Opponent,Round,,Duel
+378,Mirage Reflection,"You, your hand, library, graveyard, and all permanents you control phase out.",3 - Rare,Meta,Player,Instant,,Duel
+399,Ultra Recursion,"Until the end of your turn, you may cast cards from your graveyard.",3 - Rare,Cards,Player,Turn,,Duel
+400,Partial Control,"You get a Chaos Influencer emblem with ""Sacrifice Chaos Influencer: Choose a value for the hundreds, tens, or ones digit of the next chaos roll.""",3 - Rare,Token,Player,Instant,,Duel
+008,David's Armies,"Until the start of your next turn, all players may cast basic lands as if they were creatures with the following properties: [Casting Cost (2), Haste, 2/2] Lands cast in this way do not count toward the one-land-per-turn limit. At the start of your next turn, all lands cast in this way revert to basic lands.",3 - Rare,Cards,All,Round,Scappoose,Duel
+010,Día de los Muertos,"All players may put any number of planeswalkers, creatures, enchantments, artifacts, and lands from their graveyard into play.",3 - Rare,Cards,All,Instant,Shop'n'Swap,Duel
+038,Musical Chairs,"Coin flip direction (Heads:Left, Tails:Right). Players (and any player-attached auras, counters, life totals, etc.) rotate in that direction. All cards in other zones remain where they started.",3 - Rare,Wacky,All,Instant,Dammit Joe,Duel
+039,Musical Hands,"Coin flip direction (Heads:Left, Tails:Right). Each player's hand is passed to the player in that direction.",3 - Rare,Wacky,All,Instant,Dammit Joe,Multi
+040,Musical Libraries,"Coin flip direction (Heads:Left, Tails:Right). Each player's library is passed to the player in that direction.",3 - Rare,Wacky,All,Instant,Dammit Joe,Duel
+041,Musical Life,"Coin flip direction (Heads:Left, Tails:Right). Each player's life total is transferred to the player in that direction.",3 - Rare,Wacky,All,Instant,Dammit Joe,Multi
+042,Musical Creatures,"Coin flip direction (Heads:Left, Tails:Right). All creatures each player controls are passed to the player in that direction. They remain tapped or untapped.",3 - Rare,Wacky,All,Instant,Dammit Joe,Multi
+043,Musical Lands,"Coin flip direction (Heads:Left, Tails:Right). All lands each player controls are passed to the player in that direction. They remain tapped or untapped.",3 - Rare,Wacky,All,Instant,Dammit Joe,Duel
+046,Ruthless Efficiency!,"Until the end of your turn, you may cast instant and sorcery spells without paying their casting costs. (X) costs must still be paid. Mana spent for an (X) cost counts as 2 points for purposes of X effects.",3 - Rare,Cards,Player,Turn,Spanish Inquisition,Duel
+054,Time Walk,Take an extra turn after this one.,3 - Rare,Meta,Player,Turn,Basics,Duel
+058,Someone Didn't Balance This One,"Gain 20 life. Each opponent loses 5 life. Each opponent sacrifices a creature, artifact, and land. Create 1d3 6/6 colourless Goliath creature tokens with trample and reach. You become the monarch.",3 - Rare,Wacky,All,Instant,Dammit Joe,Multi
+061,Invert Energy,"Until the start of your next turn, effects that would cause you to gain life cause life loss instead, and effects that would deal damage or cause you to lose life cause you to gain life instead.",3 - Rare,Wacky,Player,Round,Shop'n'Swap,Duel
+062,Azathoth Awakens,"The game ends. Azathoth wins and consumes the universe. Reality ceases. Congratulations, look what you've done.",3 - Rare,Terrible,All,Instant,Dammit Joe,Duel
+071,Selvala's Stampede,"Players Vote: Wild or Free. Reveal cards from the top of your library until you reveal a creature card for each Wild vote. Put those creatures onto the battlefield, then shuffle the rest into the library. You may put a permanent from your hand onto the battlefield for each Free vote.",3 - Rare,Vote,All,Instant,Democracy,Multi
+072,Ill-Executed Socialism,"Exile all Auras. Shuffle all creatures in play into one pile. Starting with yourself, deal creatures to all players one at a time in direction of play. Repeat with planeswalkers, artifacts, enchantments, lands, and cards in hands.",3 - Rare,Meta,All,Instant,Dammit Joe,Duel
+073,Ill-Executed Communism,"Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice planeswalkers, creatures, artifacts, enchantments, and discard cards the same way.",3 - Rare,Meta,All,Instant,Dammit Joe,Duel
+098,Feldon Mania,All players shuffle their graveyards into their libraries.,3 - Rare,Cards,All,Instant,Basics,Duel
+101,Bargain Shopping,"Until the end of your turn, ignore the generic mana cost of any spells. Only pay the coloured mana cost.",3 - Rare,Meta,Player,Turn,Shop'n'Swap,Duel
+104,Nuclear Launch Detected,"Roll 1d6: [1=White, 2=Blue, 3=Red, 4=Black, 5=Green] Destroy all permanents of the rolled colour. On a 6, name a colour, then destroy all permanents of the named colour.",3 - Rare,Destruction,All,Instant,Nukes,Duel
+109,EMP,Destroy all artifacts.,3 - Rare,Destruction,All,Instant,Nukes,Duel
+118,Get Buff,Players Vote: Pushups or Situps. Pushups: All players do as many pushups as they can in 30 seconds. Situps/tie: All players do as many situps as they can in 30 seconds. Each player gains 5 life for each exercise they did.,3 - Rare,Wacky,All,Instant,Buffs,Duel
+130,Mirari Round,"Until the start of your next turn: All creatures you control gain +1/+1. Whenever you tap a land for mana, add one mana to your mana pool of any type that land produced. Whenever you cast an instant or sorcery spell, you may pay 3. If you do, copy that spell. You may choose new targets for the copy.",3 - Rare,Buff,Player,Round,Rounders,Duel
+135,Theatre in the Round,"Until the start of your next turn, as an additional cost to cast a spell, the controller of that spell must read any flavour text on the card aloud in an overly dramatic voice. If there is no flavour text, they must perform a short, seated interpretive dance of the card's name.",3 - Rare,Wacky,All,Round,Rounders,Duel
+139,Micro-Karn,"Shuffle all cards in exile into their owner's library. Exile all cards in hand, graveyard and play. Each player draws seven cards.",3 - Rare,Cards,All,Instant,References,Duel
+147,TUTOR ALL THE THINGS!,"You may search your library for up to one each of a creature, artifact, enchantment, land, sorcery, and instant, reveal them, and put them in your hand. If you do, shuffle your library.",3 - Rare,Tutor,Player,Instant,Tudors,Duel
+148,Rocking Out,"You may sing the chorus from a song. If you do, create two 3/3 red Roc creature tokens with flying. If you do not, each opponent creates a 3/3 red Roc creature token with flying.",3 - Rare,Token,All,Instant,Party,Duel
+152,C-C-C-C-COMBO BREAKER,"You get a Big Red Button emblem with ""Empty all players' mana pools, each player sacrifices all nonland permanents, sacrifice this emblem: Until end of turn, if a player would gain life they lose that much life instead.""",3 - Rare,Meta,Player,Instant,Dammit Joe,Duel
+155,Whelp Brigade,"Create 1d3 1/2 red Whelp creature tokens with flying and ""R: Whelp gains +1/+0 until end of turn. If more than RR is spent this way in one turn, destroy Whelp at end of turn."".",3 - Rare,Token,Player,Instant,Brigades,Duel
+156,How Many Of These Are There?!,Roll two more times on the Chaos List.,3 - Rare,Wacky,Player,Instant,Chaos,Duel
+158,The Wave,"Starting with you and proceeding in direction of play, all players participate in three cycles of The Wave. Players who make a wave noise may draw 1 card. Players who do not participate lose 2 life.",3 - Rare,Wacky,All,Instant,Party,Multi
+159,Time Whale,"Create a 3/5 blue Dream Whale creature token with flying and ""Sacrifice Dream Whale, pay 5 life, discard a card: Take an extra turn after this one."".",3 - Rare,Token,Player,Instant,Dammit Joe,Duel
+160,Reset Life,All players' life totals become 20.,3 - Rare,Life,All,Instant,Basics,Duel
+161,Mind Control,You gain control of target opponent during that player's next turn.,3 - Rare,Meta,"Player, Opponent",Turn,Dammit Joe,Multi
+162,Spirit of the Forest,"Create a */* green Forest Elemental creature token with trample and ""* is equal to the number of Forests on the battlefield"".",3 - Rare,Token,Player,Instant,Basics,Duel
+163,Spirit of the Mountains,"Create a */* red Mountain Spirit creature token with menace and ""* is equal to the number of Mountains on the battlefield.""",3 - Rare,Token,Player,Instant,Basics,Duel
+164,Spirit of the Plains,"Create a */* white Plains Spirit creature token with vigilance and ""* is equal to the number of Plains on the battlefield.""",3 - Rare,Token,Player,Instant,Basics,Duel
+165,Spirit of the Swamps,"Create a */* black Swamp Spirit creature token with lifelink and ""* is equal to the number of Swamps on the battlefield.""",3 - Rare,Token,Player,Instant,Basics,Duel
+166,Spirit of the Islands,"Create a */* blue Island Spirit creature token with flying and ""* is equal to the number of Islands on the battlefield.""",3 - Rare,Token,Player,Instant,Basics,Duel
+172,"By The Gods Below, Make It Stop, Please!",Roll three more times on the Chaos List.,3 - Rare,Wacky,Player,Instant,Chaos,Duel
+173,"Oh No, Not Again...",Repeat the effect of the last Chaos roll.,3 - Rare,Wacky,Player,Instant,Chaos,Duel
+174,Assimilation,Put a Borg counter on each creature you control. Creatures with Borg counters are colorless Borg artifact creatures. Put a +1/+1 counter on each Borg you control.,3 - Rare,Buff,Player,Ongoing,References,Duel
+175,Zen Round,"Until the start of your next turn, each player skips their Chaos Phase.",3 - Rare,Meta,All,Round,Chaos,Duel
+179,Aggressive Alliteration,"Reveal the top card of your library. Starting with yourself and proceeding in the direction of play, each player names a different card that starts with the same letter as the revealed card (no repeats). The first player who fails to name a card within 10 seconds of the previous player or who names a duplicate card loses 4 life. Put the revealed card into your hand.",3 - Rare,Damage,All,Instant,Party,Multi
+180,Rise of the Machines,"Put X +1/+1 counters on each noncreature artifact, where X is its converted mana cost. Noncreature artifacts with +1/+1 counters on them have ""0: This permanent becomes a creature in addition to its other types until end of turn.""",3 - Rare,Cards,All,Ongoing,References,Duel
+184,Super Chaos Round,"Until the start of your next turn, each player rolls twice during their Chaos Phase.",3 - Rare,Meta,All,Round,Chaos,Duel
+185,Ryan Loves Dice,"Choose up to 1d8 target creatures. Put X +1/+1 counters on each, X equals 1d6. Choose up to 1d4 other target creatures. Those gain +Y/+Y until end of turn, Y equals 1d20. All players discard 1d6 cards, then draw 1d8 cards. Flip a coin. Heads: All players gain 1d10 life. Tails: All players lose 2d4 life.",3 - Rare,Buff,All,Instant,Dammit Ryan,Duel
+188,Painting a Target,"You may choose a color. If you do, exile all creatures target opponent controls of the chosen color. If you don't, exile all colorless creatures target opponent controls. Return each of these creatures to the battlefield at the beginning of its owner's next end step.",3 - Rare,Cards,Target Player,Instant,Dammit Joe,Duel
+189,Classic Triplets,Add three mana of any colour to your mana pool at the start of your first main phase. Gain 3 life. Draw 3 cards. Deal 3 damage to target creature or player. Target creature gets +3/+3 until end of turn.,3 - Rare,Wacky,Player,Turn,Antiquity,Duel
+190,I'm In The DCI,"Name a nonbasic card. Ban this card for the remainder of the game. (Exile all copies of the card in play and in players' hands, graveyards, and libraries. Shuffle any libraries card was removed from.)",3 - Rare,Cards,All,Instant,Basics,Duel
+200,Chaos Choice,Flip a coin. Heads: choose an effect on the Chaos list and resolve it. Tails: target opponent chooses an effect on the Chaos list and resolves it.,3 - Rare,Wacky,Player,Instant,Chaos,Duel

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="wrap_content"
@@ -11,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gts.aarongoodman.mtgrandomeffects.MainActivity"
-    android:background="@android:color/darker_gray">
+    android:background= "@drawable/bg_gradient">
 
 
     <Button
@@ -22,11 +21,11 @@
         android:id="@+id/showEffectButton"
         android:textColor="@android:color/darker_gray"
         android:background="@android:drawable/alert_dark_frame"
-        android:text="New Effect"
+        android:text="@string/new_effect"
         android:textColorHint="@android:color/holo_blue_dark"/>
 
     <TextView
-        android:text="Please Create a new Effect"
+        android:text="@string/please_create_a_new_effect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -35,12 +34,20 @@
         android:textColor="@android:color/background_light"/>
 
     <Button
-        android:text="Refresh Data"
+        android:text="@string/refresh_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/dataRefreshButton"
         android:layout_below="@+id/effectTextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="188dp"/>
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:text="@string/random_weighting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightedRandomButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="259dp"/>
 
 </RelativeLayout>

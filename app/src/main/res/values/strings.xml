@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MTGRandomEffects</string>
+    <string name="new_effect">New Effect</string>
+    <string name="please_create_a_new_effect">Please Create a new Effect</string>
+    <string name="refresh_data">Refresh Data</string>
+    <string name="random_weighting">Random Weighting</string>
 </resources>
