@@ -1,110 +1,61 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.api.client.extensions.android.http.AndroidHttp;
-import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-import com.google.api.client.googleapis.extensions.android.gms.auth.GooglePlayServicesAvailabilityIOException;
-import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
 
-import com.google.api.client.http.HttpTransport;
-import com.google.api.client.json.JsonFactory;
-import com.google.api.client.json.jackson2.JacksonFactory;
-import com.google.api.client.util.ExponentialBackOff;
-
-import com.google.api.services.sheets.v4.SheetsScopes;
-
-import com.google.api.services.sheets.v4.model.*;
-
-import android.Manifest;
-import android.accounts.AccountManager;
-import android.app.Activity;
-import android.app.Dialog;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.text.TextUtils;
-import android.text.method.ScrollingMovementMethod;
+
+import android.support.annotation.RequiresApi;
 import android.view.View;
-import android.view.ViewGroup;
+
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import au.com.bytecode.opencsv.CSVReader;
-import pub.devrel.easypermissions.AfterPermissionGranted;
-import pub.devrel.easypermissions.EasyPermissions;
-
-
-
-
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
-public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Random rand = new Random();
-
-
-
-
-
-
-    public static final String TAG = MainActivity.class.getSimpleName();
+    String jsonString = "/Users/aarongoodman/AndroidStudioProjects/MTGRandomEffects" +
+            "/app/src/main/assets/chaos_list.json";
+    TextView randomEffectTextView;
     TextView EffectTextView;
-    String debugKeystore = "BD:7A:93:39:83:B1:EB:32:B4:B7:94:92:9B:A3:C1:0E:AF:3C:05:33";
-//    public Effect DemoEffect0 = new Effect(0,"Demo Effect 0","All creatures gain tap target " +
-//            "summon 1/1 token fart with flying");
-//    public Effect DemoEffect1 = new Effect(0,"Zentai Hero Team","All creatures are now equipment" +
-//            "Equip: tap x, where x is the number of creatues being equipped and the color of the" +
-//            "equipped creature with: +/+ equal to their attack/defense " );
-//    public EffectList efl = new EffectList();
-
-
-    //trying to parse the csv and turn it into objects.
-//    public static String[] parseCsv(String fileName) throws java.io.IOException{
-//        CSVReader reader = new CSVReader(new FileReader(fileName + ".csv"));
-//        List<String[]> myEntries = reader.readAll();
-//        System.out.println(myEntries.toString());
-//        return myEntries.get(0);
-//    }
+    List<Effect> effectList;
 
 
 
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EffectTextView = (TextView) findViewById(R.id.effectTextView);
+        Type listType = new TypeToken<List<Effect>>() {}.getType();
+        List<Effect> target = new LinkedList<Effect>();
 
-        Button ShowEffectButton = (Button) findViewById(R.id.showEffectButton);
-        ShowEffectButton.setOnClickListener(this);
+
+
+        EffectTextView = (TextView) findViewById(R.id.EffectTextView);
+
+        Button showEffectButton = (Button) findViewById(R.id.showEffectButton);
+        showEffectButton.setOnClickListener(this);
 
         Button DataRefreshButton = (Button) findViewById(R.id.dataRefreshButton);
         DataRefreshButton.setOnClickListener(this);
@@ -113,31 +64,50 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         WeightedRandomButton.setOnClickListener(this);
 
 
+        Gson gson = new Gson();
+
+        try (Reader reader = new FileReader("/Users/aarongoodman/AndroidStudioProjects/" +
+                "MTGRandomEffects/app/src/main/assets/chaos_list.json")) {
+
+            // Convert JSON to Java Object
+            Effect effectList = gson.fromJson(reader, Effect.class);
+            System.out.println(effectList);
+
+            // Convert JSON to JsonElement, and later to String
+            /*JsonElement json = gson.fromJson(reader, JsonElement.class);
+            String jsonInString = gson.toJson(json);
+            System.out.println(jsonInString);*/
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(getApplicationContext(), "404 file not found",
+                    Toast.LENGTH_SHORT).show();
+        }
+
+
     }
 
     @Override
     public void onClick(View v)  {
-
+        String currentEffectText;
         switch(v.getId()) {
 
             case R.id.showEffectButton:
                 int randomEffectNumber = rand.nextInt(349-1)+1;
-                String currentEffectText = "" + randomEffectNumber;
-                EffectTextView.setText(currentEffectText);
+                currentEffectText = "" + randomEffectNumber;
+                //weightedEffectTextView.setText(currentEffectText);
+               // weightedEffectTextView.setText(effectList.get(0).FIELD3);
+
+
+
+
                 Toast.makeText(getApplicationContext(), "Effect Button Works",
                         Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.dataRefreshButton:
-                //try {
-                    Toast.makeText(getApplicationContext(), "Refresh Button Works"
-                            //+parseCsv("chaos_list"),
-                            ,Toast.LENGTH_SHORT).show();
-//                }catch(java.io.IOException IOE){
-//                    System.out.println("IOException on refresh button");
-//
-//                }
-
+                Toast.makeText(getApplicationContext(), "Refresh Button Works",
+                        Toast.LENGTH_SHORT).show();
 
                 break;
 
@@ -153,16 +123,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     randomSecond = rand.nextInt(128)+1;
                     Toast.makeText(getApplicationContext(), "" + randomSecond,
                             Toast.LENGTH_SHORT).show();
+                    currentEffectText = "" + randomSecond;
+                    EffectTextView.setText(currentEffectText);
                 }
                 else if(randomFirst <= 18 && randomFirst >= 13){
                     randomSecond = rand.nextInt(305-130)+130;
                     Toast.makeText(getApplicationContext(), "" + randomSecond,
                             Toast.LENGTH_SHORT).show();
+                    currentEffectText = "" + randomSecond;
+                    EffectTextView.setText(currentEffectText);
                 }
                 else {
                     randomSecond = rand.nextInt(400-307)+307;
                     Toast.makeText(getApplicationContext(), "" + randomSecond,
                             Toast.LENGTH_SHORT).show();
+                    currentEffectText = "" + randomSecond;
+                    EffectTextView.setText(currentEffectText);
                 }
 
 

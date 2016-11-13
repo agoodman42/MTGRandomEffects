@@ -13,41 +13,53 @@
     android:background= "@drawable/bg_gradient">
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="27dp"
-        android:id="@+id/showEffectButton"
-        android:textColor="@android:color/darker_gray"
-        android:background="@android:drawable/alert_dark_frame"
-        android:text="@string/new_effect"
-        android:textColorHint="@android:color/holo_blue_dark"/>
-
     <TextView
-        android:text="@string/please_create_a_new_effect"
+        android:text="No Effect Generated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EffectTextView"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <Button
+        style="@android:style/Widget.Holo.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/effectTextView"
-        android:textAlignment="center"
-        android:textColor="@android:color/background_light"/>
+        android:id="@+id/showEffectButton"
+        android:textColor="#ffffffff"
+        android:text="Random Effect"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:text="Weighted Effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightedRandomButton"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_above="@+id/showEffectButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <Button
         android:text="@string/refresh_data"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/dataRefreshButton"
-        android:layout_below="@+id/effectTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"/>
-
-    <Button
-        android:text="@string/random_weighting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/weightedRandomButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="259dp"/>
+        style="@android:style/Widget.Holo.Button"
+        android:background="@color/Opaque"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12sp"/>
 
 </RelativeLayout>

@@ -1,0 +1,1017 @@
+[
+ {
+   "FIELD1": "#",
+   "FIELD2": "Name",
+   "FIELD3": "Effect"
+ },
+ {
+   "FIELD1": "001",
+   "FIELD2": "Dave's Generosity",
+   "FIELD3": "All players search their libraries for a basic land and put it into play tapped, then shuffle their library."
+ },
+ {
+   "FIELD1": "002",
+   "FIELD2": "CJ Freeze",
+   "FIELD3": "Until the start of your next turn, each opponent may only untap one land during their untap phase."
+ },
+ {
+   "FIELD1": "003",
+   "FIELD2": "Toby's Vengeance",
+   "FIELD3": "All players lose 3 life."
+ },
+ {
+   "FIELD1": "004",
+   "FIELD2": "David's Celerity",
+   "FIELD3": "Until the start of your next turn, the casting cost of all spells is reduced by (1)."
+ },
+ {
+   "FIELD1": "005",
+   "FIELD2": "Dave's Accelerator",
+   "FIELD3": "All creatures gain +2/+0 when attacking until end of turn."
+ },
+ {
+   "FIELD1": "006",
+   "FIELD2": "David's Armies",
+   "FIELD3": "Until the start of your next turn, all players may cast basic lands as if they were creatures with the following properties: [Casting Cost (2), Haste, 2/2] Mark lands cast in this way with a David counter, they do not count toward the one-land-per-turn limit. At the start of your next turn, remove all David counters and all lands cast in this way revert to basic lands."
+ },
+ {
+   "FIELD1": "007",
+   "FIELD2": "Spy Games",
+   "FIELD3": "Choose an unchosen opponent. Look at the top three cards of their library and put them back in any order. That opponent may copy this effect and choose a new unchosen player."
+ },
+ {
+   "FIELD1": "008",
+   "FIELD2": "Mirage Redux",
+   "FIELD3": "Target opponent, their hand, library, graveyard, and all permanents they control phase out."
+ },
+ {
+   "FIELD1": "009",
+   "FIELD2": "Trampoline Party",
+   "FIELD3": "Creatures you control gain flying until end of turn."
+ },
+ {
+   "FIELD1": "010",
+   "FIELD2": "Archery Training",
+   "FIELD3": "Creatures you control gain reach until end of turn."
+ },
+ {
+   "FIELD1": "011",
+   "FIELD2": "Beach Party",
+   "FIELD3": "Creatures you control gain islandwalk until end of turn."
+ },
+ {
+   "FIELD1": "012",
+   "FIELD2": "Mosh Pit",
+   "FIELD3": "Creatures you control gain trample until end of turn."
+ },
+ {
+   "FIELD1": "013",
+   "FIELD2": "Tent Revival",
+   "FIELD3": "Creatures you control gain indestructible until end of turn."
+ },
+ {
+   "FIELD1": "014",
+   "FIELD2": "Climbing Trek",
+   "FIELD3": "Creatures you control gain mountainwalk until end of turn."
+ },
+ {
+   "FIELD1": "015",
+   "FIELD2": "Peat Harvesting",
+   "FIELD3": "Creatures you control gain swampwalk until end of turn."
+ },
+ {
+   "FIELD1": "016",
+   "FIELD2": "Camping Trip",
+   "FIELD3": "Creatures you control gain forestwalk until end of turn."
+ },
+ {
+   "FIELD1": "017",
+   "FIELD2": "Road Trip",
+   "FIELD3": "Creatures you control gain plainswalk until end of turn."
+ },
+ {
+   "FIELD1": "018",
+   "FIELD2": "Riot",
+   "FIELD3": "Creatures you control gain melee until end of turn."
+ },
+ {
+   "FIELD1": "019",
+   "FIELD2": "Polearm Practice",
+   "FIELD3": "Creatures you control gain first strike until end of turn."
+ },
+ {
+   "FIELD1": "020",
+   "FIELD2": "PCP in the water supply",
+   "FIELD3": "Creatures you control gain double strike until end of turn."
+ },
+ {
+   "FIELD1": "021",
+   "FIELD2": "Hogwarts Invitations",
+   "FIELD3": "Creatures you control gain prowess until end of turn."
+ },
+ {
+   "FIELD1": "022",
+   "FIELD2": "Extra Coffee Rations",
+   "FIELD3": "Creatures you control gain vigilance until end of turn."
+ },
+ {
+   "FIELD1": "023",
+   "FIELD2": "Poisoned Blades",
+   "FIELD3": "Creatures you control gain deathtouch until end of turn."
+ },
+ {
+   "FIELD1": "024",
+   "FIELD2": "Siphonophores",
+   "FIELD3": "Creatures you control gain lifelink until end of turn."
+ },
+ {
+   "FIELD1": "025",
+   "FIELD2": "Something Clever",
+   "FIELD3": "Creatures you control gain hexproof until end of turn."
+ },
+ {
+   "FIELD1": "026",
+   "FIELD2": "Overrun",
+   "FIELD3": "Creatures you control gain +3/+3 and trample until end of turn."
+ },
+ {
+   "FIELD1": "027",
+   "FIELD2": "Amphetamines",
+   "FIELD3": "Creatures that enter the battlefield under your control this turn gain haste."
+ },
+ {
+   "FIELD1": "028",
+   "FIELD2": "Pyroclasm",
+   "FIELD3": "All creatures take 2 damage."
+ },
+ {
+   "FIELD1": "029",
+   "FIELD2": "Pyroclasm Squared",
+   "FIELD3": "All creatures take 4 damage."
+ },
+ {
+   "FIELD1": "030",
+   "FIELD2": "Pyroclasm Cubed",
+   "FIELD3": "All creatures take 8 damage."
+ },
+ {
+   "FIELD1": "031",
+   "FIELD2": "Stream of Life",
+   "FIELD3": "Gain 1d10 life."
+ },
+ {
+   "FIELD1": "032",
+   "FIELD2": "River of Life",
+   "FIELD3": "Gain 1d20 life."
+ },
+ {
+   "FIELD1": "033",
+   "FIELD2": "Ocean of Life",
+   "FIELD3": "Gain 2d10 life. All opponents gain 1d10 life (roll individually)."
+ },
+ {
+   "FIELD1": "034",
+   "FIELD2": "Mini-Disk",
+   "FIELD3": "Each player sacrifices one land, creature, or artifact."
+ },
+ {
+   "FIELD1": "035",
+   "FIELD2": "Cloak of Eyes",
+   "FIELD3": "Scry 10."
+ },
+ {
+   "FIELD1": "036",
+   "FIELD2": "Time Walk",
+   "FIELD3": "Take an extra turn after this one."
+ },
+ {
+   "FIELD1": "037",
+   "FIELD2": "Yay, Draw!",
+   "FIELD3": "Draw three cards."
+ },
+ {
+   "FIELD1": "038",
+   "FIELD2": "Meh, Draw",
+   "FIELD3": "You and target opponent each draw three cards."
+ },
+ {
+   "FIELD1": "039",
+   "FIELD2": "Boo, Draw",
+   "FIELD3": "Each opponent draws three cards."
+ },
+ {
+   "FIELD1": "040",
+   "FIELD2": "Yay, Life!",
+   "FIELD3": "Gain four life."
+ },
+ {
+   "FIELD1": "041",
+   "FIELD2": "Meh, Life",
+   "FIELD3": "You and target opponent each gain four life."
+ },
+ {
+   "FIELD1": "042",
+   "FIELD2": "Boo, Life",
+   "FIELD3": "Each opponent gains four life."
+ },
+ {
+   "FIELD1": "043",
+   "FIELD2": "Yay, Counters!",
+   "FIELD3": "Distribute two +1/+1 counters among creatures you control."
+ },
+ {
+   "FIELD1": "044",
+   "FIELD2": "Meh, Counters",
+   "FIELD3": "Distribute two +1/+1 counters among creatures you control. Target opponent distributes two +1/+1 counters among creatures they control."
+ },
+ {
+   "FIELD1": "045",
+   "FIELD2": "Boo, Counters",
+   "FIELD3": "Each opponent distributes two +1/+1 counters among creatures they control."
+ },
+ {
+   "FIELD1": "046",
+   "FIELD2": "Yay, Mill!",
+   "FIELD3": "Each opponent puts the top two cards of their library into their graveyard."
+ },
+ {
+   "FIELD1": "047",
+   "FIELD2": "Meh, Mill",
+   "FIELD3": "Put the top two cards of your library into your graveyard. Target opponent puts the top two cards of their library into their graveyard."
+ },
+ {
+   "FIELD1": "048",
+   "FIELD2": "Boo, Mill",
+   "FIELD3": "Put the top two cards of your library into your graveyard."
+ },
+ {
+   "FIELD1": "049",
+   "FIELD2": "Yay, Tourach!",
+   "FIELD3": "Each opponent discards two cards at random."
+ },
+ {
+   "FIELD1": "050",
+   "FIELD2": "Meh, Tourach",
+   "FIELD3": "You and target opponent each discard two cards at random."
+ },
+ {
+   "FIELD1": "051",
+   "FIELD2": "Boo, Tourach",
+   "FIELD3": "Discard two cards at random"
+ },
+ {
+   "FIELD1": "052",
+   "FIELD2": "Rainbow Vale",
+   "FIELD3": "Until the end of your turn, your lands produce any colour of mana when tapped."
+ },
+ {
+   "FIELD1": "053",
+   "FIELD2": "Feldon",
+   "FIELD3": "Shuffle your graveyard into your library."
+ },
+ {
+   "FIELD1": "054",
+   "FIELD2": "Feldon Mania",
+   "FIELD3": "All players shuffle their graveyards into their libraries."
+ },
+ {
+   "FIELD1": "055",
+   "FIELD2": "Leng",
+   "FIELD3": "Skip your discard phase."
+ },
+ {
+   "FIELD1": "056",
+   "FIELD2": "Call of the Reaper",
+   "FIELD3": "All players lose half their current life, rounded down."
+ },
+ {
+   "FIELD1": "057",
+   "FIELD2": "Mulligan",
+   "FIELD3": "All players discard their hands and draw seven cards."
+ },
+ {
+   "FIELD1": "058",
+   "FIELD2": "Forced Topdecking",
+   "FIELD3": "Target player discards their hand."
+ },
+ {
+   "FIELD1": "059",
+   "FIELD2": "Dark Harvest",
+   "FIELD3": "Each player may exile a creature from their graveyard. If they do, they gain life equal to the exiled creature's toughness."
+ },
+ {
+   "FIELD1": "060",
+   "FIELD2": "Assassin's Creed",
+   "FIELD3": "Destroy target tapped creature."
+ },
+ {
+   "FIELD1": "061",
+   "FIELD2": "Living Lands",
+   "FIELD3": "All lands become 2/2 creatures in addition to being lands until end of turn."
+ },
+ {
+   "FIELD1": "062",
+   "FIELD2": "Lockdown",
+   "FIELD3": "Tap three target creatures. These creatures do not untap during their controller's next untap step."
+ },
+ {
+   "FIELD1": "063",
+   "FIELD2": "Soul Siphon",
+   "FIELD3": "Each opponent loses 2 life. You gain life equal to the life lost from this effect."
+ },
+ {
+   "FIELD1": "064",
+   "FIELD2": "Seeker of Storms",
+   "FIELD3": "Each player loses 1 life for every card in their hand."
+ },
+ {
+   "FIELD1": "065",
+   "FIELD2": "Sneaky Shadows of Stealthy Secrets",
+   "FIELD3": "Creatures you control gain skulk until end of turn."
+ },
+ {
+   "FIELD1": "066",
+   "FIELD2": "Reset Life",
+   "FIELD3": "All players' life totals become 20."
+ },
+ {
+   "FIELD1": "067",
+   "FIELD2": "Spirit of the Forest",
+   "FIELD3": "Create a X/X green Elemental token creature with trample. X is equal to the number of Forests on the battlefield."
+ },
+ {
+   "FIELD1": "068",
+   "FIELD2": "Spirit of the Mountains",
+   "FIELD3": "Create a X/X red Elemental token creature with menace. X is equal to the number of Mountains on the battlefield."
+ },
+ {
+   "FIELD1": "069",
+   "FIELD2": "Spirit of the Plains",
+   "FIELD3": "Create a X/X white Elemental token creature with vigilance. X is equal to the number of Plains on the battlefield."
+ },
+ {
+   "FIELD1": "070",
+   "FIELD2": "Spirit of the Swamps",
+   "FIELD3": "Create a X/X black Elemental token creature with lifelink. X is equal to the number of Swamps on the battlefield."
+ },
+ {
+   "FIELD1": "071",
+   "FIELD2": "Spirit of the Islands",
+   "FIELD3": "Create a X/X blue Elemental token creature with flying. X is equal to the number of Islands on the battlefield."
+ },
+ {
+   "FIELD1": "072",
+   "FIELD2": "I'm In The DCI",
+   "FIELD3": "Name a nonbasic card. Ban this card for the remainder of the game. (Remove all copies of the card in play and in players' hands, graveyards, and libraries. Shuffle any libraries card was removed from.)"
+ },
+ {
+   "FIELD1": "073",
+   "FIELD2": "Minion Siphon",
+   "FIELD3": "Each player gains 1 life for each creature they control. Deal 1 damage to each creature."
+ },
+ {
+   "FIELD1": "074",
+   "FIELD2": "Escalating Pain",
+   "FIELD3": "Choose three target creatures, planeswalkers, or players. Deal 1 damage to the first target, 2 to the second, and 3 to the third."
+ },
+ {
+   "FIELD1": "075",
+   "FIELD2": "Increasing Health",
+   "FIELD3": "Choose three target players. The first target gains 1 life, the second gains 2, the third gains 3."
+ },
+ {
+   "FIELD1": "076",
+   "FIELD2": "Growing Knowledge",
+   "FIELD3": "Choose three target players. The first target draws 1 card. the second draws 2, the third draws 3."
+ },
+ {
+   "FIELD1": "077",
+   "FIELD2": "Rising Fury",
+   "FIELD3": "Choose three target creatures. Put one +1/+1 counter on the first, two +1/+1 counters on the second, three +1/+1 counters on the third."
+ },
+ {
+   "FIELD1": "078",
+   "FIELD2": "Switzerland",
+   "FIELD3": "If no sources you control deal damage this turn, until the start of your next turn you cannot be the target of attacks and all damage that would be dealt to you is reduced to 0."
+ },
+ {
+   "FIELD1": "079",
+   "FIELD2": "Robot Squires",
+   "FIELD3": "Create X 0/1 colourless Robobutler token artifact creatures with defender. X is equal to the number of nontoken creatures you control. Target opponent may copy this effect."
+ },
+ {
+   "FIELD1": "080",
+   "FIELD2": "Alphabet Shield",
+   "FIELD3": "Choose a letter. Target creature gains protection from cards beginning with that letter."
+ },
+ {
+   "FIELD1": "081",
+   "FIELD2": "Dresden's Bracelet",
+   "FIELD3": "Create a colourless Bracelet token artifact with \"Remove a Talisman counter from Bracelet: Prevent all damage a source of your choice would deal to you or a planeswalker you control.\" Put four Talisman counters on Bracelet."
+ },
+ {
+   "FIELD1": "082",
+   "FIELD2": "Redshirt Brigade",
+   "FIELD3": "Create 2d4+1 0/1 red/white Human token creatures with defender and reach."
+ },
+ {
+   "FIELD1": "083",
+   "FIELD2": "Squirrel Brigade",
+   "FIELD3": "Create X 1/1 green Squirrel token creatures. X is the number of lands on the battlefield."
+ },
+ {
+   "FIELD1": "084",
+   "FIELD2": "Skeleton Brigade",
+   "FIELD3": "Create X 1/1 black Skeleton token creatures. X is the number of creatures in all graveyards."
+ },
+ {
+   "FIELD1": "085",
+   "FIELD2": "Thopter Brigade",
+   "FIELD3": "Create 1d10 0/1 colourless Thopter token artifact creatures with flying."
+ },
+ {
+   "FIELD1": "086",
+   "FIELD2": "Scryb Brigade",
+   "FIELD3": "Create 1d4 1/1 green Sprite token creatures with flying."
+ },
+ {
+   "FIELD1": "087",
+   "FIELD2": "Whelp Brigade",
+   "FIELD3": "Create 1d3 1/2 red Whelp token creatures with flying and \"R: Whelp gains +1/+0 until end of turn. If more that RR is spent this way in one turn, destroy Whelp at end of turn.\"."
+ },
+ {
+   "FIELD1": "088",
+   "FIELD2": "O, Canada!",
+   "FIELD3": "Choose up to five target basic lands. Put a Maple counter on each. Lands with Maple counters are considered snow-covered."
+ },
+ {
+   "FIELD1": "089",
+   "FIELD2": "Battle Moose",
+   "FIELD3": "Target creature gains snow-covered landwalk."
+ },
+ {
+   "FIELD1": "090",
+   "FIELD2": "Canadian Round",
+   "FIELD3": "Until the start of your next turn, whenever a source deals damage to a target, that source's controller may apologize to the target. If they do not, the damage is reduced to 0."
+ },
+ {
+   "FIELD1": "091",
+   "FIELD2": "Phyrexian Syrup",
+   "FIELD3": "Choose up to two target creatures. Put a Maple counter on each. Proliferate. Creatures with Maple counters are delicious (Delicious creatures must be blocked if able)."
+ },
+ {
+   "FIELD1": "092",
+   "FIELD2": "Dead Man's Party",
+   "FIELD3": "Creatures you control become 2/2 black Zombies until end of turn."
+ },
+ {
+   "FIELD1": "093",
+   "FIELD2": "Musical Chairs",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). Players (and any player-attached effects, auras, emblems, etc.) rotate in that direction. All other cards remain where they started."
+ },
+ {
+   "FIELD1": "094",
+   "FIELD2": "Musical Hands",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). Each player's hand is passed to the player in that direction."
+ },
+ {
+   "FIELD1": "095",
+   "FIELD2": "Musical Libraries",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). Each player's library is passed to the player in that direction."
+ },
+ {
+   "FIELD1": "096",
+   "FIELD2": "Musical Life",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). Each player's life total is transferred to the player in that direction."
+ },
+ {
+   "FIELD1": "097",
+   "FIELD2": "Musical Creatures",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). All creatures each player controls are passed to the player in that direction. They remain tapped or untapped."
+ },
+ {
+   "FIELD1": "098",
+   "FIELD2": "Musical Lands",
+   "FIELD3": "Coin flip direction (Heads:Left, Tails:Right). All lands each player controls are passed to the player in that direction. They remain tapped or untapped."
+ },
+ {
+   "FIELD1": "099",
+   "FIELD2": "Someone Didn't Balance This One",
+   "FIELD3": "Gain 20 life. Each opponent loses 5 life. Each opponent sacrifices a creature, artifact, and land. Create 1d3 6/6 colourless Goliath token creatures with trample and reach. You become the monarch."
+ },
+ {
+   "FIELD1": "100",
+   "FIELD2": "Azathoth Awakens",
+   "FIELD3": "The game ends. Azathoth wins and consumes the universe. Reality ceases. Congratulations, look what you've done."
+ },
+ {
+   "FIELD1": "101",
+   "FIELD2": "Ill-Executed Socialism",
+   "FIELD3": "All auras are exiled. Shuffle all creatures in play into one pile. Starting with yourself, deal creatures to all players one at a time in direction of play. Repeat with planeswalkers, artifacts, enchantments, lands, and cards in hands."
+ },
+ {
+   "FIELD1": "102",
+   "FIELD2": "Ill-Executed Communism",
+   "FIELD3": "Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players sacrifice planeswalkers, creatures, artifacts, enchantments, and discard cards the same way."
+ },
+ {
+   "FIELD1": "103",
+   "FIELD2": "C-C-C-C-COMBO BREAKER",
+   "FIELD3": "Put a Big Red Button emblem with the following text in play: \"Empty all players' mana pools, each player sacrifices all nonland permanents, sacrifice this emblem: Until end of turn, if a player would gain life they lose that much life instead.\""
+ },
+ {
+   "FIELD1": "104",
+   "FIELD2": "Time Whale",
+   "FIELD3": "Create a 3/5 blue Dream Whale token creature with flying and \"Sacrifice Dream Whale, pay 5 life, discard a card: Take an extra turn after this one.\"."
+ },
+ {
+   "FIELD1": "105",
+   "FIELD2": "Mind Control",
+   "FIELD3": "You gain control of target opponent during that player's next turn."
+ },
+ {
+   "FIELD1": "106",
+   "FIELD2": "Bouncy House",
+   "FIELD3": "Roll 1d6: [1=White, 2=Blue, 3=Red, 4=Black, 5=Green] Return all permanents of the rolled colour to their owner's hands. On a 6, return all colourless nonland permanents to their owner's hands."
+ },
+ {
+   "FIELD1": "107",
+   "FIELD2": "Painting a Target",
+   "FIELD3": "You may choose a color. If you do, exile all creatures target opponent controls of the chosen color. If you don't, exile all colorless creatures target opponent controls. Return each of these creatures to the battlefield at the beginning of its owners next end step."
+ },
+ {
+   "FIELD1": "108",
+   "FIELD2": "Wild Flailing",
+   "FIELD3": "Choose a creature an opponent controls. That creature deals X damage to Y target creatures. X is equal to that creature's power, Y is equal to that creature's toughness."
+ },
+ {
+   "FIELD1": "109",
+   "FIELD2": "Ryan Loves Dice",
+   "FIELD3": "Choose up to 1d8 target creatures. Put X +1/+1 counters on each, X equals 1d6. Choose up to 1d4 other target creatures. Those gain +Y/+Y until end of turn, Y equals 1d20. All players discard 1d6 cards, then draw 1d8 cards. Flip a coin. Heads: All players gain 1d10 life. Tails: All players lose 2d4 life."
+ },
+ {
+   "FIELD1": "110",
+   "FIELD2": "Bite of the Black Rose",
+   "FIELD3": "Players Vote: Sickness or Psychosis. Sickness: creatures your opponents control get -2/-2 until end of turn. Psychosis/tie: each opponent discards two cards."
+ },
+ {
+   "FIELD1": "111",
+   "FIELD2": "Coercive Portal",
+   "FIELD3": "Players Vote: Carnage or Homage. Carnage: destroy all nonland permanents. Homage/tie: draw three cards."
+ },
+ {
+   "FIELD1": "112",
+   "FIELD2": "Council's Judgement",
+   "FIELD3": "Players Vote: Each player votes for a nonland permanent you don't control. Exile each permanent with the most votes or tied for most votes."
+ },
+ {
+   "FIELD1": "113",
+   "FIELD2": "Custodi Squire",
+   "FIELD3": "Players Vote: Each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand."
+ },
+ {
+   "FIELD1": "114",
+   "FIELD2": "Magister of Worth",
+   "FIELD3": "Players Vote: Grace or Condemnation. Grace: each player returns each creature from their graveyard to the battlefield. Condemnation/tie: destroy all creatures."
+ },
+ {
+   "FIELD1": "115",
+   "FIELD2": "Plea for Power",
+   "FIELD3": "Players Vote: Time or Knowledge. Time: you take an extra turn after this one. Knowledge/tie: draw six cards."
+ },
+ {
+   "FIELD1": "116",
+   "FIELD2": "Tyrant's Choice",
+   "FIELD3": "Players Vote: Death or Torture. Death: each opponent sacrifices a creature. Torture/tie: each opponent loses 4 life."
+ },
+ {
+   "FIELD1": "117",
+   "FIELD2": "Lietenant of the Guard",
+   "FIELD3": "Players Vote: Strength or Numbers. Put a +1/+1 counter on a creature you control for each Strength vote. Create a 1/1 white Soldier token creature for each Numbers vote."
+ },
+ {
+   "FIELD1": "118",
+   "FIELD2": "Selvala's Stampede",
+   "FIELD3": "Players Vote: Wild or Free. Reveal cards from the top of your library until you reveal a creature card for each Wild vote. Put those creatures onto the battlefield, then shuffle the rest into the library. You may put a permanent from your hand onto the battlefield for each Free vote."
+ },
+ {
+   "FIELD1": "119",
+   "FIELD2": "So Done With This",
+   "FIELD3": "Players Vote: Whatever or Persist. Whatever: You win the game. Persist/tie: The game continues. Players who voted Persist lose 2 life."
+ },
+ {
+   "FIELD1": "120",
+   "FIELD2": "Green Buff",
+   "FIELD3": "All green creatures gain +2/+1 and trample until end of turn."
+ },
+ {
+   "FIELD1": "121",
+   "FIELD2": "Red Buff",
+   "FIELD3": "All red creatures gain +1/+1 and double strike until end of turn."
+ },
+ {
+   "FIELD1": "122",
+   "FIELD2": "White Buff",
+   "FIELD3": "All white creatures gain +1/+2 and vigilance until end of turn."
+ },
+ {
+   "FIELD1": "123",
+   "FIELD2": "Blue Buff",
+   "FIELD3": "All blue creatures gain +1/+1 and flying until end of turn."
+ },
+ {
+   "FIELD1": "124",
+   "FIELD2": "Black Buff",
+   "FIELD3": "All black creatures gain +1/+1 and lifelink until end of turn."
+ },
+ {
+   "FIELD1": "125",
+   "FIELD2": "Get Buff",
+   "FIELD3": "Players Vote: Pushups or Situps. Pushups: All players do as many pushups as they can in 30 seconds. Situps/tie: All players do as many situps as they can in 30 seconds. Each player gains 5 life for each exercise they did."
+ },
+ {
+   "FIELD1": "126",
+   "FIELD2": "Green Djinn",
+   "FIELD3": "Flip a coin. Heads: Create two 3/3 green Elephant token creatures. Tails: lose 3 life."
+ },
+ {
+   "FIELD1": "127",
+   "FIELD2": "Red Djinn",
+   "FIELD3": "Flip a coin. Heads: Deal 3 damage to each of two target creatures/planeswalkers/players. Tails: lose 3 life."
+ },
+ {
+   "FIELD1": "128",
+   "FIELD2": "White Djinn",
+   "FIELD3": "Flip a coin. Heads: Choose up to three target creatures you control. Put two +1/+1 counters on each of those creatures. Tails: lose 3 life."
+ },
+ {
+   "FIELD1": "129",
+   "FIELD2": "Blue Djinn",
+   "FIELD3": "Flip a coin. Heads: Return two target permanents you control and three target permanents you don't control to their owners hands. Tails: lose 3 life."
+ },
+ {
+   "FIELD1": "130",
+   "FIELD2": "Black Djinn",
+   "FIELD3": "Flip a coin. Heads: Choose up to three target creatures you don't control. Put two -1/-1 counters on each of those creatures. Tails: lose 3 life."
+ },
+ {
+   "FIELD1": "131",
+   "FIELD2": "Nuclear Launch Detected",
+   "FIELD3": "Roll 1d6: [1=White, 2=Blue, 3=Red, 4=Black, 5=Green] Destroy all permanents of the rolled colour. On a 6, name a colour, then destroy all permanents of the named colour."
+ },
+ {
+   "FIELD1": "132",
+   "FIELD2": "Tribal Nuke",
+   "FIELD3": "Choose a creature type, then destroy all creatures with that type."
+ },
+ {
+   "FIELD1": "133",
+   "FIELD2": "EMP",
+   "FIELD3": "Destroy all artifacts."
+ },
+ {
+   "FIELD1": "134",
+   "FIELD2": "Alphabet Nuke",
+   "FIELD3": "Choose a letter. Destroy all nonland permanents with a name beginning with that letter."
+ },
+ {
+   "FIELD1": "135",
+   "FIELD2": "Mana Nuke",
+   "FIELD3": "Pick a number. Destroy all nonland permanents with a converted mana cost equal to that number."
+ },
+ {
+   "FIELD1": "136",
+   "FIELD2": "Oddly Specific Nuke",
+   "FIELD3": "Name a nonland card. Destroy all copies of the named card in play."
+ },
+ {
+   "FIELD1": "137",
+   "FIELD2": "Rocking Out",
+   "FIELD3": "You may sing the chorus from a song. If you do, create two 3/3 red Roc token creatures with flying. If you do not, each opponent creates a 3/3 red Roc token creature with flying."
+ },
+ {
+   "FIELD1": "138",
+   "FIELD2": "The Wave",
+   "FIELD3": "Starting with you and proceeding in direction of play, all players participate in three cycles of The Wave. Players who make a wave noise may draw 1 card. Players who do not participate lose 2 life."
+ },
+ {
+   "FIELD1": "139",
+   "FIELD2": "Aggressive Alliteration",
+   "FIELD3": "Reveal the top card of your library. Starting with yourself and proceeding in the direction of play, each player names a different card that starts with the same letter as the revealed card (no repeats). The first player who fails to name a card within 10 seconds of the previous player or who names a duplicate card loses 4 life. Put the revealed card into your hand."
+ },
+ {
+   "FIELD1": "140",
+   "FIELD2": "Munchies",
+   "FIELD3": "Target creature gains snackwalk."
+ },
+ {
+   "FIELD1": "141",
+   "FIELD2": "Phyrexian Suitcase",
+   "FIELD3": "You may pay X life to put a token copy of any card you own from ouside the game into play, where X is half (rounded up) of that card's converted mana cost."
+ },
+ {
+   "FIELD1": "142",
+   "FIELD2": "Phyrexian Braingeyser",
+   "FIELD3": "You may pay X life. If you do, draw X cards."
+ },
+ {
+   "FIELD1": "143",
+   "FIELD2": "Phyrexian Oil",
+   "FIELD3": "Proliferate."
+ },
+ {
+   "FIELD1": "144",
+   "FIELD2": "Jeanetic Manipulation",
+   "FIELD3": "Target creature gains denimwalk."
+ },
+ {
+   "FIELD1": "145",
+   "FIELD2": "Black Vase",
+   "FIELD3": "Each player loses 1 life for each cup, glass, or other liquid container on the table."
+ },
+ {
+   "FIELD1": "146",
+   "FIELD2": "Nordstrom's Rack",
+   "FIELD3": "Each player loses 1 life for each item of clothing they are wearing."
+ },
+ {
+   "FIELD1": "147",
+   "FIELD2": "Swapped at Birth",
+   "FIELD3": "Choose up to five target creatures. Put a Fae counter on each. Creatures with Fae counters have changeling."
+ },
+ {
+   "FIELD1": "148",
+   "FIELD2": "We're Ba-ack!",
+   "FIELD3": "Each player places all exiled cards they own on the bottom of their library in any order."
+ },
+ {
+   "FIELD1": "149",
+   "FIELD2": "Zerg Rush",
+   "FIELD3": "Each player creates 2d6 (rolled independently) 1/1 colourless Zergling token creatures with haste."
+ },
+ {
+   "FIELD1": "150",
+   "FIELD2": "Micro-Scheherazade",
+   "FIELD3": "Play a best of three Rock-Paper-Scissors match against target opponent. Loser loses half their current life (rounded down). Tie break coin flip (Heads: you win, Tails: opponent wins)."
+ },
+ {
+   "FIELD1": "151",
+   "FIELD2": "Micro-Karn",
+   "FIELD3": "Shuffle all cards in exile into their owner's library. Exile all cards in hand, graveyard and play. Each player draws seven cards."
+ },
+ {
+   "FIELD1": "152",
+   "FIELD2": "Assimilation",
+   "FIELD3": "Creatures you control become colorless Borg artifact creatures. Put a +1/+1 counter on each Borg you control."
+ },
+ {
+   "FIELD1": "153",
+   "FIELD2": "Rise of the Machines",
+   "FIELD3": "Put X +1/+1 counters on each noncreature artifact, where X is its converted mana cost. Noncreature artifacts with +1/+1 counters on them have \"0: This permanent becomes a creature in addition to its other types until end of turn.\""
+ },
+ {
+   "FIELD1": "154",
+   "FIELD2": "Antici...",
+   "FIELD3": "Draw five cards. You cannot cast spells this turn. Skip your discard phase."
+ },
+ {
+   "FIELD1": "155",
+   "FIELD2": "...pation",
+   "FIELD3": "The first four spells you cast this turn cost (0)."
+ },
+ {
+   "FIELD1": "156",
+   "FIELD2": "Dingus Round",
+   "FIELD3": "Until the start of your next turn, any time a land is destroyed, its controller loses 2 life."
+ },
+ {
+   "FIELD1": "157",
+   "FIELD2": "Mirari Round",
+   "FIELD3": "Until the start of your next turn, all creatures you control gain +1/+1 and whenever you tap a land for mana, add one mana to your mana pool of any type that land produced."
+ },
+ {
+   "FIELD1": "158",
+   "FIELD2": "Barbs Round",
+   "FIELD3": "Until the start of your next turn, any time a player taps a land for mana, they lose one life."
+ },
+ {
+   "FIELD1": "159",
+   "FIELD2": "Telepathy Round",
+   "FIELD3": "Until the start of your next turn, all players play with their hands and the top card of their library revealed."
+ },
+ {
+   "FIELD1": "160",
+   "FIELD2": "Flare Round",
+   "FIELD3": "Until the start of your next turn, any time a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced "
+ },
+ {
+   "FIELD1": "161",
+   "FIELD2": "Mist Round",
+   "FIELD3": "Until the start of your next turn, all combat damage dealt to creatures is reduced to 0."
+ },
+ {
+   "FIELD1": "162",
+   "FIELD2": "Furnace Round",
+   "FIELD3": "Until the start of your next turn, all damage dealt by sorceries and instants is doubled."
+ },
+ {
+   "FIELD1": "163",
+   "FIELD2": "Gravity Round",
+   "FIELD3": "Until the start of your next turn, all creatures with flying lose flying."
+ },
+ {
+   "FIELD1": "164",
+   "FIELD2": "Another Round",
+   "FIELD3": "Target player may refill your drink. If they do not, they lose 6 life. If you do not have a drink, slake your thirst for knowledge and draw three cards instead."
+ },
+ {
+   "FIELD1": "165",
+   "FIELD2": "Theatre in the Round",
+   "FIELD3": "Until the start of your next turn, as an additional cost to cast a spell, the controller of that spell must read any flavour text on the card aloud in an overly dramatic voice. If there is no flavour text, they must perform a short, seated interpretive dance of the card's name."
+ },
+ {
+   "FIELD1": "166",
+   "FIELD2": "Clone",
+   "FIELD3": "Choose a target creature. Put a token copy of that creature into play under your control."
+ },
+ {
+   "FIELD1": "167",
+   "FIELD2": "Enhanced Mitosis",
+   "FIELD3": "Choose a target creature. Put two token copies of that creature into play under your control."
+ },
+ {
+   "FIELD1": "168",
+   "FIELD2": "Surprise!",
+   "FIELD3": "Search your library for up to 3 creatures and put them into play, untapped, then shuffle your library. They gain haste."
+ },
+ {
+   "FIELD1": "169",
+   "FIELD2": "Fear!",
+   "FIELD3": "Creatures you control gain intimidate until end of turn."
+ },
+ {
+   "FIELD1": "170",
+   "FIELD2": "Ruthless Efficiency!",
+   "FIELD3": "Until the end of your turn, you may cast instant and sorcery spells without paying their casting costs. (X) costs must still be paid. Mana spent for an (X) cost counts as 2 points for purposes of X effects."
+ },
+ {
+   "FIELD1": "171",
+   "FIELD2": "An almost fanatical devotion to the Pope!",
+   "FIELD3": "Create 1d6 1/1 white Spirit token creatures with flying."
+ },
+ {
+   "FIELD1": "172",
+   "FIELD2": "Nice red uniforms!",
+   "FIELD3": "Create 1d3 4/4 red Dragon token creatures with flying."
+ },
+ {
+   "FIELD1": "173",
+   "FIELD2": "The Comfy Chair!",
+   "FIELD3": "Tap target player."
+ },
+ {
+   "FIELD1": "174",
+   "FIELD2": "Día de los Muertos",
+   "FIELD3": "All players may put any number of planeswalkers, creatures, enchantments, artifacts, and lands from their graveyard into play."
+ },
+ {
+   "FIELD1": "175",
+   "FIELD2": "Ma'ruf's Circlet",
+   "FIELD3": "All players may put a card they own from outside of the game into their hand."
+ },
+ {
+   "FIELD1": "176",
+   "FIELD2": "Call Stu",
+   "FIELD3": "Switch life totals with target opponent."
+ },
+ {
+   "FIELD1": "177",
+   "FIELD2": "Tradewinds",
+   "FIELD3": "You may exchange a creature, artifact, enchantment, and land for a card of the same type that an opponent controls."
+ },
+ {
+   "FIELD1": "178",
+   "FIELD2": "Juxtapose",
+   "FIELD3": "Exchange a creature you control with a creature an opponent controls."
+ },
+ {
+   "FIELD1": "179",
+   "FIELD2": "Invert Energy",
+   "FIELD3": "Until the start of your next turn, effects that would cause you to gain life cause life loss instead, and effects that would deal damage or cause you to lose life cause you to gain life instead."
+ },
+ {
+   "FIELD1": "180",
+   "FIELD2": "Bargain Shopping",
+   "FIELD3": "Until the end of your turn, ignore the generic mana cost of any spells. Only pay the coloured mana cost."
+ },
+ {
+   "FIELD1": "181",
+   "FIELD2": "Swap Meet",
+   "FIELD3": "Exchange a random card in your hand with a random card in target opponent's hand."
+ },
+ {
+   "FIELD1": "182",
+   "FIELD2": "Reverse",
+   "FIELD3": "Reverse the direction of play."
+ },
+ {
+   "FIELD1": "183",
+   "FIELD2": "Skip",
+   "FIELD3": "Skip the next player's turn."
+ },
+ {
+   "FIELD1": "184",
+   "FIELD2": "Draw Two",
+   "FIELD3": "Draw two cards."
+ },
+ {
+   "FIELD1": "185",
+   "FIELD2": "Draw Four",
+   "FIELD3": "Draw four cards."
+ },
+ {
+   "FIELD1": "186",
+   "FIELD2": "Uno",
+   "FIELD3": "All players discard down to one card."
+ },
+ {
+   "FIELD1": "187",
+   "FIELD2": "Classic Triplets",
+   "FIELD3": "Add three mana of any colour to your mana pool at the start of your first main phase. Gain 3 life. Draw 3 cards. Deal 3 damage to target creature or player. Target creature gets +3/+3 until end of turn."
+ },
+ {
+   "FIELD1": "188",
+   "FIELD2": "Blood Tutor",
+   "FIELD3": "You may pay 2 life. If you do, search your library for a card and put it in your hand, then shuffle your library."
+ },
+ {
+   "FIELD1": "189",
+   "FIELD2": "Archeology Tutor",
+   "FIELD3": "You may sacrifice a land. If you do, search your library for a card and put it in your hand, then shuffle your library."
+ },
+ {
+   "FIELD1": "190",
+   "FIELD2": "Surgical Tutor",
+   "FIELD3": "You may sacrifice a creature. If you do, search your library for a card and put it in your hand, then shuffle your library."
+ },
+ {
+   "FIELD1": "191",
+   "FIELD2": "Tinker Tutor",
+   "FIELD3": "You may sacrifice an artifact. If you do, search your library for a card and put it in your hand, then shuffle your library."
+ },
+ {
+   "FIELD1": "192",
+   "FIELD2": "OG Tutor",
+   "FIELD3": "You may search your library for a card and put it in your hand. If you do, shuffle your library."
+ },
+ {
+   "FIELD1": "193",
+   "FIELD2": "Fancy Tutor",
+   "FIELD3": "You may search your library for a foil card, reveal it, and put it in your hand. If you do, shuffle your library."
+ },
+ {
+   "FIELD1": "194",
+   "FIELD2": "TUTOR ALL THE THINGS!",
+   "FIELD3": "You may search your library for a creature, artifact, enchantment, land, sorcery, and instant, reveal them, and put them in your hand. If you do, shuffle your library."
+ },
+ {
+   "FIELD1": "195",
+   "FIELD2": "How Many Of These Are There?!",
+   "FIELD3": "Roll two more times on the Chaos List."
+ },
+ {
+   "FIELD1": "196",
+   "FIELD2": "By The Gods Below, Make It Stop, Please!",
+   "FIELD3": "Roll three more times on the Chaos List."
+ },
+ {
+   "FIELD1": "197",
+   "FIELD2": "Oh No, Not Again...",
+   "FIELD3": "Repeat the effect of the last Chaos roll."
+ },
+ {
+   "FIELD1": "198",
+   "FIELD2": "Zen Round",
+   "FIELD3": "Until the start of your next turn, each player skips their Chaos Phase."
+ },
+ {
+   "FIELD1": "199",
+   "FIELD2": "Super Chaos Round",
+   "FIELD3": "Until the start of your next turn, each player rolls twice during their Chaos Phase."
+ },
+ {
+   "FIELD1": "200",
+   "FIELD2": "Chaos Choice",
+   "FIELD3": "Flip a coin. Heads: choose an effect on the Chaos list and resolve it. Tails: target opponent chooses an effect on the Chaos list and resolves it."
+ },
+ {
+   "FIELD1": "",
+   "FIELD2": "",
+   "FIELD3": ""
+ },
+ {
+   "FIELD1": "",
+   "FIELD2": "",
+   "FIELD3": "#REF!"
+ }
+]

@@ -1,42 +1,21 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
 public class Effect {
-    private int mNumber;
-    private String mName;
-    private String mText;
-    private boolean mIsMulti;
+    public String FIELD1;
+    public String FIELD2;
+    public String FIELD3;
+    //private boolean mIsMulti;
 
-    public Effect( int effectNumber, String effectName, String effectText, boolean isMulti){
-        mNumber = effectNumber;
-        mName = effectName;
-        mText = effectText;
-        mIsMulti = isMulti;
-
+    public Effect( String effectNumber, String effectName, String effectText){
+        FIELD1 = effectNumber;
+        FIELD2 = effectName;
+        FIELD3 = effectText;
+        //mIsMulti = isMulti;
 
     }
+    public String provideEffect(){
+        return FIELD1 + " " + FIELD2+ " " + FIELD3;
 
-    public int getNumber() {
-        return mNumber;
-    }
-
-    public void setNumber(int number) {
-        mNumber = number;
-    }
-
-    public String getName() {
-        return mName;
-    }
-
-    public void setName(String name) {
-        mName = name;
-    }
-
-    public String getText() {
-        return mText;
-    }
-
-    public void setText(String text) {
-        mText = text;
     }
 }
 
