@@ -1,20 +1,20 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
 public class Effect {
-    public String FIELD1;
-    public String FIELD2;
-    public String FIELD3;
+    public String number;
+    public String name;
+    public String effect;
     //private boolean mIsMulti;
 
     public Effect( String effectNumber, String effectName, String effectText){
-        FIELD1 = effectNumber;
-        FIELD2 = effectName;
-        FIELD3 = effectText;
+        number = effectNumber;
+        name = effectName;
+        effect = effectText;
         //mIsMulti = isMulti;
 
     }
-    public String provideEffect(){
-        return FIELD1 + " " + FIELD2+ " " + FIELD3;
+    public String postEffectName(){
+        return  name;
 
     }
 }

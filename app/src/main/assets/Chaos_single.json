@@ -1,0 +1,7 @@
+{
+  "001": {
+    "Number": "001",
+    "Name": "Dave's Generosity",
+    "Effect": "All players search their libraries for a basic land and put it into play tapped, then shuffle their library."
+  }
+}
