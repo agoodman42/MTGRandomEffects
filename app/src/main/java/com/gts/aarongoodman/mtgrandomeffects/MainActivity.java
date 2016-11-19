@@ -3,6 +3,7 @@ package com.gts.aarongoodman.mtgrandomeffects;
 
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -46,11 +47,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     TextView randomEffectTextView;
     TextView EffectTextView;
+    TextView EffectTitleTextView;
     ArrayList<Effect> effectList;
     String jsonString;
     Gson gson = new Gson();
-    Effect testEffect;
-    String effectName;
+    Effect currentEffect;
+    String effectText;
+    ArrayList<Effect> jsonList;
+
 
 
 
@@ -59,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String json = null;
         try {
 
-            InputStream is = getAssets().open("chaos_single.json");
+            InputStream is = getAssets().open("chaos_for_the_app.json");
 
             int size = is.available();
 
@@ -83,16 +87,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    Type typeOfObjectsList = new TypeToken<List<Effect>>() {}.getType();
-    List<Effect> objectsList = new Gson().fromJson(jsonString, typeOfObjectsList);
-
-
-
-
-
-
-
-
 
 
 
@@ -105,6 +99,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         EffectTextView = (TextView) findViewById(R.id.EffectTextView);
 
+        EffectTitleTextView = (TextView) findViewById(R.id.TitleTextView);
+
         Button showEffectButton = (Button) findViewById(R.id.showEffectButton);
         showEffectButton.setOnClickListener(this);
 
@@ -116,15 +112,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         jsonString = loadJSONFromAsset();
 
-        Effect testEffect = gson.fromJson(jsonString, Effect.class);
+//        Effect testEffect = gson.fromJson(jsonString, Effect.class);
 
-//        Type type = new TypeToken<ArrayList<Effect>>() {}.getType();
-//        ArrayList<Effect> jsonList = gson.fromJson(jsonString, type);
+        Type type = new TypeToken<ArrayList<Effect>>() {}.getType();
+        jsonList = gson.fromJson(jsonString, type);
 //
-        effectList= (ArrayList<Effect>) objectsList;
-      // testEffect = effectList.get(0);
-       // effectName  = testEffect.postEffectName();
-//
+        effectList = jsonList;
+        currentEffect = jsonList.get(0);
+        effectText  = currentEffect.getDescription();
+
+
+
 
 
 
@@ -140,20 +138,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v)  {
         String currentEffectText;
+        String currentEffectTitle;
         switch(v.getId()) {
 
             case R.id.showEffectButton:
                 int randomEffectNumber = rand.nextInt(349-1)+1;
-                currentEffectText = "" + randomEffectNumber;
+                currentEffect = jsonList.get(randomEffectNumber);
+                currentEffectText = currentEffect.getDescription();
+                currentEffectTitle = currentEffect.getDisplayNum() + " "
+                        + currentEffect.getName();
                 EffectTextView.setText(currentEffectText);
+                EffectTitleTextView.setTextColor(Color.WHITE);
+                EffectTitleTextView.setText(currentEffectTitle);
+
                // weightedEffectTextView.setText(effectList.get(0).FIELD3);
+
 
 
 
                 break;
 
             case R.id.dataRefreshButton:
-                Toast.makeText(getApplicationContext(),effectName ,
+                Toast.makeText(getApplicationContext(),effectText ,
                         Toast.LENGTH_SHORT).show();
 
                 break;
@@ -169,20 +175,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (randomFirst <= 12){
                     randomSecond = rand.nextInt(128)+1;
 
-                    currentEffectText = "" + randomSecond;
+                    currentEffect = jsonList.get(randomSecond);
+                    currentEffectText = currentEffect.getDescription();
+                    currentEffectTitle = currentEffect.getDisplayNum()
+                            + " "+ currentEffect.getName();
                     EffectTextView.setText(currentEffectText);
+                    EffectTitleTextView.setTextColor(Color.parseColor("#0070dd"));
+                    EffectTitleTextView.setText(currentEffectTitle);
+
+
                 }
                 else if(randomFirst <= 18 && randomFirst >= 13){
                     randomSecond = rand.nextInt(305-130)+130;
 
-                    currentEffectText = "" + randomSecond;
+                    currentEffect = jsonList.get(randomSecond);
+                    currentEffectText = currentEffect.getDescription();
+                    currentEffectTitle = currentEffect.getDisplayNum()
+                            + " "+ currentEffect.getName();
                     EffectTextView.setText(currentEffectText);
+                    EffectTitleTextView.setTextColor(Color.parseColor("#a335ee"));
+                    EffectTitleTextView.setText(currentEffectTitle);
+
                 }
                 else {
                     randomSecond = rand.nextInt(400-307)+307;
 
-                    currentEffectText = "" + randomSecond;
+                    currentEffect = jsonList.get(randomSecond);
+                    currentEffectText = currentEffect.getDescription();
+                    currentEffectTitle = currentEffect.getDisplayNum()
+                            + " "+ currentEffect.getName();
                     EffectTextView.setText(currentEffectText);
+                    EffectTitleTextView.setTextColor(Color.parseColor("#ff8000"));
+                    EffectTitleTextView.setText(currentEffectTitle);
+
                 }
 
 
