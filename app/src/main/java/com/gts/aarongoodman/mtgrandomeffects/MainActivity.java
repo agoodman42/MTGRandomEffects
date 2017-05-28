@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView EffectTitleTextView;
     ArrayList<Effect> effectList;
     String jsonString;
-    Gson gson = new Gson();
+    Gson gson;
     Effect currentEffect;
     String effectText;
     ArrayList<Effect> jsonList;
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     public String loadJSONFromAsset() {
-        String json = null;
+        String json;
         try {
 
             InputStream is = getAssets().open("chaos_for_the_app.json");
@@ -90,11 +90,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        gson = new Gson();
 
 
         EffectTextView = (TextView) findViewById(R.id.EffectTextView);
@@ -115,11 +116,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        Effect testEffect = gson.fromJson(jsonString, Effect.class);
 
         Type type = new TypeToken<ArrayList<Effect>>() {}.getType();
-        jsonList = gson.fromJson(jsonString, type);
+       // jsonList = gson.fromJson(jsonString, type);
 //
         effectList = jsonList;
-        currentEffect = jsonList.get(0);
-        effectText  = currentEffect.getDescription();
+//        currentEffect = jsonList.get(0);
+//        effectText  = currentEffect.getDescription();
 
 
 
