@@ -1,28 +1,17 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
 public class Effect {
-    public int ID;
-    public int DisplayNum;
-    public String Name;
-    public String Description;
-    public boolean IsMulti;
-    public String Rarity;
+    String Number;
+    String Name;
+    String Effect;
 
 
-    public int getID() {
-        return ID;
+    public String getNumber() {
+        return Number;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public int getDisplayNum() {
-        return DisplayNum;
-    }
-
-    public void setDisplayNum(int displayNum) {
-        DisplayNum = displayNum;
+    public void setNumber(String number) {
+        this.Number = number;
     }
 
     public String getName() {
@@ -30,30 +19,16 @@ public class Effect {
     }
 
     public void setName(String name) {
-        Name = name;
+        this.Name = name;
     }
 
-    public String getDescription() {
-        return Description;
+    public String getEffect() {
+        return Effect;
     }
 
-    public void setDescription(String description) {
-        Description = description;
+    public void setEffect(String effect) {
+        this.Effect = effect;
     }
 
-    public boolean isMulti() {
-        return IsMulti;
-    }
 
-    public void setMulti(boolean multi) {
-        IsMulti = multi;
-    }
-
-    public String getRarity() {
-        return Rarity;
-    }
-
-    public void setRarity(String rarity) {
-        Rarity = rarity;
-    }
 }

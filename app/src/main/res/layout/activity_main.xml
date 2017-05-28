@@ -31,7 +31,7 @@
         style="@android:style/Widget.Holo.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/showEffectButton"
+        android:id="@+id/randomEffectButton"
         android:textColor="#ffffffff"
         android:text="Random Effect"
         android:textColorHint="@android:color/holo_blue_dark"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/weightedRandomButton"
         style="@android:style/Widget.Holo.Button"
-        android:layout_above="@+id/showEffectButton"
+        android:layout_above="@+id/randomEffectButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
