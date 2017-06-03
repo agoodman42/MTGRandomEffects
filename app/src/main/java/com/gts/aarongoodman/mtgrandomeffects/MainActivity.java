@@ -2,11 +2,13 @@ package com.gts.aarongoodman.mtgrandomeffects;
 
 
 import android.graphics.Color;
+import android.media.Image;
 import android.os.Bundle;
 
 import android.view.View;
 
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import android.support.v7.app.AppCompatActivity;
@@ -80,15 +82,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         gson = new Gson();
 
 
-        EffectTextView = (TextView) findViewById(R.id.EffectTextView);
+        EffectTextView = (TextView) findViewById(R.id.effectTextView);
 
         EffectTitleTextView = (TextView) findViewById(R.id.TitleTextView);
 
         Button showEffectButton = (Button) findViewById(R.id.randomEffectButton);
         showEffectButton.setOnClickListener(this);
 
-        Button DataRefreshButton = (Button) findViewById(R.id.dataRefreshButton);
-        DataRefreshButton.setOnClickListener(this);
+        ImageButton aboutButton = (ImageButton) findViewById(R.id.aboutButton);
+        aboutButton.setOnClickListener(this);
 
         Button WeightedRandomButton = (Button) findViewById(R.id.weightedRandomButton);
         WeightedRandomButton.setOnClickListener(this);
@@ -120,8 +122,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
 
-            case R.id.dataRefreshButton:
-                Toast.makeText(getApplicationContext(),effectText ,
+            case R.id.aboutButton:
+                Toast.makeText(getApplicationContext(),"Hi I'm Aaron, I made this thing" ,
                         Toast.LENGTH_SHORT).show();
 
                 break;
