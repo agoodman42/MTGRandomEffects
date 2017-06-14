@@ -9,11 +9,78 @@
     tools:context="com.gts.aarongoodman.mtgrandomeffects.MainActivity">
 
 
+    <ImageView
+        android:id="@+id/bigImageView"
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@color/Opaque" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/aboutButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/weightedRandomButton"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/scales"
+            android:text="Weighted Effect"
+            app:layout_constraintBottom_toBottomOf="@+id/randomEffectButton"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/randomEffectButton"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/randomEffectButton"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/d20_white"
+            android:backgroundTint="?android:attr/colorForeground"
+            android:text="Random Effect"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/aboutButton"
+            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/weightedRandomButton" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/effectTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
@@ -21,91 +88,33 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/aboutButton"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/aboutButton" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
 
     <TextView
         android:id="@+id/TitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="104dp"
         android:text="No Effect Chosen"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="104dp"
-        app:layout_constraintHorizontal_bias="0.504" />
-
-
-    <LinearLayout
-        android:id="@+id/buttonLayout"
-        android:layout_width="156dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="558dp">
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/randomEffectButton"
-        style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/d20_white"
-        android:backgroundTint="?android:attr/colorForeground"
-        android:text="Random Effect"
-        android:textColor="@android:color/white"
-        android:textColorHint="@android:color/holo_blue_dark"
-        android:visibility="visible"
-        app:layout_constraintRight_toLeftOf="@+id/weightedRandomButton"
-        android:layout_marginRight="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/aboutButton" />
-
-    <Button
-        android:id="@+id/weightedRandomButton"
-        style="@android:style/Widget.Holo.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/scales"
-        android:text="Weighted Effect"
-        android:layout_marginRight="16dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintTop_toTopOf="@+id/randomEffectButton"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/randomEffectButton"
-        android:layout_marginBottom="8dp" />
-
-    <LinearLayout
-        android:id="@+id/utilityButtonLayout"
-        android:layout_width="337dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
-        android:orientation="horizontal"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="@+id/buttonLayout"
-        app:layout_constraintRight_toRightOf="@+id/buttonLayout"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
-    </LinearLayout>
 
     <ImageButton
         android:id="@+id/aboutButton"
@@ -113,16 +122,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_weight="1"
         android:background="@color/Opaque"
-        app:srcCompat="@drawable/about_med_white"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="7dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/about_med_white" />
 
 </android.support.constraint.ConstraintLayout>

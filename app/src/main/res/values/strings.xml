@@ -5,4 +5,9 @@
     <string name="refresh_data">Refresh Data</string>
     <string name="random_weighting">Random Weighting</string>
     <string name="about_text">About</string>
+    <string name="thank_you_text">Thank you for downloading our app./n I hope you like it. We will be updating it with the new chaos lists soon!</string>
+    <string name="title_activity_about_me">All About The App</string>
+    <string name="about_the_app_string">Hey there, thanks for downloading my app. This is a collaboration between myself and my friend Joe. Joe made the list of effects, and I built the app. I hope you have as much fun using it as we did making it. I\'ll be updating the app with new features and effects soon, so stay tuned!</string>
+    <string name="github_string"> For feature requests, to report bugs and  to access to the source code, check out my github at github.com/agoodman42</string>
+    <string name="contact_me"> You can reach me by email at goodman.business.info@gmail.com</string>
 </resources>

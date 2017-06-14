@@ -1,9 +1,13 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
+/**
+ * This is an object to record deserilization from the JSON and allow us to manipulate the data
+ */
 public class Effect {
     String Number;
     String Name;
     String Effect;
+    String PictureName;
 
 
     public String getNumber() {
@@ -29,6 +33,16 @@ public class Effect {
     public void setEffect(String effect) {
         this.Effect = effect;
     }
+    public String getPictureName() {
+        return PictureName;
+    }
+
+    public void setPictureName(String pictureName) {
+        PictureName = pictureName;
+    }
+
+
+
 
 
 }

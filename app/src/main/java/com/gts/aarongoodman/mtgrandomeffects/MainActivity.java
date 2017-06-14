@@ -1,14 +1,19 @@
 package com.gts.aarongoodman.mtgrandomeffects;
 
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.Image;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 
+import android.support.constraint.ConstraintLayout;
 import android.view.View;
 
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +23,7 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.squareup.picasso.Picasso;
 
 
 import java.io.IOException;
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Effect currentEffect;
     String effectText;
     ArrayList<Effect> TAB;
+    ConstraintLayout cLayout;
+    ConnectivityManager cm;
+    ImageView bigImageView;
 
 
 
@@ -79,6 +88,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        bigImageView = (ImageView) findViewById(R.id.bigImageView);
+        cLayout =  (ConstraintLayout) findViewById(R.id.activity_main);
+
         gson = new Gson();
 
 
@@ -99,7 +111,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Type effectListType = new TypeToken<ArrayList<Effect>>(){}.getType();
         TAB = gson.fromJson(jsonString, effectListType);
+
+
+
+        cm = (ConnectivityManager)this.getSystemService(this.CONNECTIVITY_SERVICE);
+
+        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
+        if(activeNetwork != null && activeNetwork.isConnectedOrConnecting()){
+            Picasso.with(this).load("https://github.com/agoodman42/MTGRandomEffects/blob/" +
+                    "master/app/src/main/res/drawable/magic_sphere.jpg?raw=true")
+                    .fit()
+                    .centerCrop()
+                    .into(bigImageView);
+        }
+
     }
+
+
 
     @Override
     public void onClick(View v)  {
@@ -125,6 +153,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.aboutButton:
                 Toast.makeText(getApplicationContext(),"Hi I'm Aaron, I made this thing" ,
                         Toast.LENGTH_SHORT).show();
+
+                Intent i = new Intent(this, AboutMeActivity.class);
+                startActivity(i);
 
                 break;
 
